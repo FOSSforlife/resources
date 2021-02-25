@@ -9,9 +9,9 @@ for (const dataDir of fs.readdirSync(`./data`)) {
   for(const entryFile of fs.readdirSync(`./data/${dataDir}`, {})) {
     const entryName = entryFile.split('.')[0];
     const entryData = yaml.load(fs.readFileSync(`./data/${dataDir}/${entryFile}`));
-    console.log(entryData);
 
     const html = template({ entry: entryData });
+    fs.mkdirSync('./dist');
     fs.writeFileSync(`./dist/${titleCase(noCase(entryName))}.html`, html);
   }
 }
