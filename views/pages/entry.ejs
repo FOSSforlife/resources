@@ -1,1 +1,16 @@
-<%= entry.overviewLinks[0].name %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head', {title: entryName}); %>
+</head>
+<body>
+  <%- include('../partials/header'); %>
+
+  <%= entryName %>
+  <%= entry.overviewLinks[0].name %>
+
+  <%- include('../partials/footer'); %>
+
+</body>
+</html>
+

@@ -10,14 +10,13 @@ app.get('/', (req, res) => {
   res.render('pages/index');
 });
 
-app.get('/:entry', (req, res) => {
-  const { entry } = req.params;
-  const firstLetter = entry[0].toLowerCase();
-  const entryFile = `./data/${firstLetter}/${paramCase(entry)}.yml`;
+app.get('/:entryName', (req, res) => {
+  const { entryName } = req.params;
+  const firstLetter = entryName[0].toLowerCase();
+  const entryFile = `./data/${firstLetter}/${paramCase(entryName)}.yml`;
   const entryData = yaml.load(fs.readFileSync(entryFile));
-  console.log(entryData);
 
-  res.render('pages/entry', { entry: entryData })
+  res.render('pages/entry', { entry: entryData, entryName, distUrl: '/dist/', publicUrl: '/public/' })
 })
 
 app.listen(8080);
