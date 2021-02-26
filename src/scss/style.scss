@@ -1,4 +1,5 @@
 $primary-color: lighten(rgb(3, 218, 21), 2) !default;
+$tabs-text-color: white;
 @import '../../node_modules/materialize-css/sass/materialize.scss';
 
 h1 {
@@ -10,9 +11,40 @@ h1 {
   text-align: left;
 }
 
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 h6 {
   font-size: 1.25rem;
 }
+
+.header {
+  margin-bottom: 0;
+}
+
+.tabs {
+  .tab a {
+    background-color: transparentize($tabs-underline-color, 0.4);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 34px;
+    line-height: 34px;
+    text-transform: none;
+
+    &.active {
+      background-color: $tabs-underline-color;
+      color: white;
+    }
+  }
+}
+
+// .collection-item {
+
+// }
 
 // materialize:
 // preloader

@@ -7,11 +7,13 @@ const sass = require('sass');
 
 // Create folders
 if (!fse.existsSync('dist')) {
-  fse.mkdirp('dist/css');
+  fse.mkdirpSync('dist/css');
+  fse.mkdirSync('dist/js');
 }
 
 // Copy static assets
 fse.copySync('src/assets', 'dist', { overwrite: true });
+fse.copySync('src/js', 'dist/js', { overwrite: true });
 
 // Build CSS
 const sassResult = sass.renderSync({

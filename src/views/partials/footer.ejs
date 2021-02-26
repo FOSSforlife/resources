@@ -1,1 +1,7 @@
-footer
+<% if(entryName) { %>
+<% let fileLink = 'https://github.com/FOSSforlife/resources/blob/main/data/'; %>
+<% fileLink += entryName[0].toLowerCase() + '/' %>
+<% fileLink += entryName.split(' ').map(s => s.toLowerCase()).join('-') + '.yml' %>
+<a href="<%= fileLink %>">Edit page data</a><br>
+<% } %>
+<a href="https://github.com/FOSSforlife/resources">View site source on GitHub</a><br>
