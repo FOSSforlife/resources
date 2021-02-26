@@ -1,0 +1,11 @@
+config:
+  tags:
+    - economics
+  related:
+    - neoclassical economics
+
+sections:
+  Opinions:
+    Debate:
+      - name: 'Dylan Matthews: Bill Gates tweeted out a chart and sparked a huge debate about global poverty'
+        url: https://www.vox.com/future-perfect/2019/2/12/18215534/bill-gates-global-poverty-chart

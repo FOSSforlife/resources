@@ -1,0 +1,8 @@
+config:
+  embeds:
+    - name: Reddit
+      url: https://www.reddit.com/r/neoliberal/wiki/faq
+  tags:
+    - political ideologies
+
+sections:

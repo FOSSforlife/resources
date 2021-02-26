@@ -1,15 +1,21 @@
 <h5 class="section"><%= sectionTitle %></h5>
-<div class="collection">
+<% for(const [subSectionTitle, items] of Object.entries(subSections)) { %>
+<div class="collection with-header">
+
+  <div href="#!" class="collection-header">
+    <h6><%= subSectionTitle %></h6>
+  </div>
+
   <% for(const item of items) { %>
   <% if(item.url) { %>
   <a href="<%= item.url %>" class="collection-item">
     <span class="item-name"><%= item.name %></span>
     <span class="right item-hostname"><%= new URL(item.url).hostname.replace('www.', '') %></span>
   </a>
-
   <% } else {%>
   <div class="collection-item"><%= item.name %></div>
   <% } %>
   <% } %>
 
 </div>
+<% } %>

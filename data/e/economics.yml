@@ -1,0 +1,29 @@
+config:
+  tags:
+    - economics
+  related:
+    - capitalism
+    - neoclassical economics
+    - heterodox economics
+
+sections:
+  Books:
+    Charles Wheelan - Naked Economics:
+      - name: Chapter Summaries
+        url: https://www.drurly.com/blog/2013/02/05/lessons-from-naked-economics.html
+      - name: 1. The Power of Markets
+      - name: 2. Incentives Matter
+      - name: 3. Government and the Economy
+      - name: 4. Government and the Economy II
+      - name: 5. Economics of Information
+      - name: 6. Productivity and Human Capital
+      - name: 7. Financial Markets
+      - name: 8. The Power of Organized Interests
+      - name: 9. Keeping Score
+      - name: 10. The Federal Reserve
+      - name: 11. International Economics
+      - name: 12. Trade and Globalization
+      - name: 13. Development Economics
+  Analysis of the Field:
+    - name: 'Does Economics Breed Republicans?'
+      url: https://www.theatlantic.com/business/archive/2010/06/does-economics-breed-republicans/57846/

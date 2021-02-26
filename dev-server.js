@@ -1,6 +1,7 @@
 const fse = require('fs-extra');
 const path = require('path');
 const { paramCase } = require('change-case');
+const { titleCase } = require('title-case');
 const yaml = require('js-yaml');
 const express = require('express');
 const app = express();
@@ -25,7 +26,7 @@ app.get('/:entryName', (req, res) => {
   const entryFile = `data/${firstLetter}/${paramCase(entryName)}.yml`;
   const entryData = yaml.load(fse.readFileSync(entryFile));
 
-  res.render('pages/entry', { entryData, entryName });
+  res.render('pages/entry', { entryData, entryName: titleCase(entryName) });
 });
 
 app.listen(8080);

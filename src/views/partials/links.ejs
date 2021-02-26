@@ -1,11 +1,7 @@
-<% if(entryData.overviewLinks) { %>
-<%- include('./links-section', {sectionTitle: 'Overview', items: entryData.overviewLinks}) %>
-<% } %>
-
-<% if(entryData.guides) { %>
-<%- include('./links-section', {sectionTitle: 'Guides', items: entryData.guides}) %>
-<% } %>
-
-<% if(entryData.opinions) { %>
-<%- include('./links-section-subheaders', {sectionTitle: 'Opinions', sections: entryData.opinions}) %>
-<% } %>
+<% for(const [sectionTitle, section] of Object.entries(sections)) { %>
+<% if(Array.isArray(section)) { %>
+<%- include('./links-section', {sectionTitle, items: section}) %>
+<% } else {%>
+<%- include('./links-section-subsections', {sectionTitle: sectionTitle, subSections: section}) %>
+<% }%>
+<% }%>

@@ -1,0 +1,60 @@
+config:
+  embeds:
+    - name: Reddit
+      url: https://www.reddit.com/r/Anarchism/wiki/primer
+  tags:
+    - political ideologies
+
+sections:
+  Online Texts:
+    An Anarchist FAQ:
+      - name: 'Introduction'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-01-17
+
+      - name: 'Section A: What is Anarchism?'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-02-17
+
+      - name: 'Section B: Why do anarchists oppose the current system?'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-03-17
+
+      - name: 'Section C: What are the myths of capitalist economics?'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-04-17
+
+      - name: 'Section D: How do statism and capitalism affect society?'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-05-17
+
+      - name: 'Section E: What do anarchists think causes ecological problems?'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-06-17
+
+      - name: 'Section F: Is “anarcho”-capitalism a type of anarchism?'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-07-17
+
+      - name: 'Section G: Is individualist anarchism capitalistic?'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-08-17
+
+      - name: 'Section H: Why do anarchists oppose state socialism?'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-09-17
+
+      - name: 'Section I: What would an anarchist society look like?'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-10-17
+
+      - name: 'Section J: What do anarchists do?'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-11-17
+
+      - name: 'Appendix: Anarchism and “anarcho”-capitalism'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-12-17
+
+      - name: 'Appendix: The Symbols of Anarchy'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-13-17
+
+      - name: 'Appendix: Anarchism and Marxism'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-14-17
+
+      - name: 'Appendix: The Russian Revolution'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-15-17
+
+      - name: '_Bibliography for FAQ_'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-16-17
+
+      - name: 'An Anarchist FAQ after ten years'
+        url: https://theanarchistlibrary.org/library/the-anarchist-faq-editorial-collective-an-anarchist-faq-17-17
