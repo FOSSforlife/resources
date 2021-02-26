@@ -1,15 +1,11 @@
 <% if(entryData.overviewLinks) { %>
+<%- include('./links-section', {sectionTitle: 'Overview', items: entryData.overviewLinks}) %>
+<% } %>
 
-<div class="collection with-header">
-  <div href="#!" class="collection-header center">
-    <h5>Overview</h5>
-  </div>
+<% if(entryData.guides) { %>
+<%- include('./links-section', {sectionTitle: 'Guides', items: entryData.guides}) %>
+<% } %>
 
-  <% for(const item of entryData.overviewLinks) { %>
-  <a href="<%= item.url %>" class="collection-item"><%= item.name %></a>
-  <a href="<%= item.url %>" class="collection-item"><%= item.name %></a>
-  <% } %>
-
-</div>
-
+<% if(entryData.opinions) { %>
+<%- include('./links-section-subheaders', {sectionTitle: 'Opinions', sections: entryData.opinions}) %>
 <% } %>
