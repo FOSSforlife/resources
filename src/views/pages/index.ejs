@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <%- include('../partials/head', {title: 'Resources'}); %>
+  <%- include('../partials/head.ejs', {title: 'Resources'}); %>
 </head>
+
 <body>
-  <%- include('../partials/header'); %>
+  <div class="container">
+    <%- include('../partials/header.ejs'); %>
 
-  Hello world
+    Hello world
 
-  <%- include('../partials/footer'); %>
+    <%- include('../partials/footer.ejs'); %>
+  </div>
 </body>
+
 </html>

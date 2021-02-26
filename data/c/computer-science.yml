@@ -16,7 +16,9 @@ opinions:
     - name: "Vox: Article 2"
       url: https://vox.com
 
-
 embeds:
   - name: Reddit
     url: https://reddit.com/r/economics/wiki/faq
+
+tags:
+  - computer science

@@ -1,4 +1,5 @@
-@import "../../../node_modules/materialize-css/sass/materialize.scss";
+$primary-color: lighten(rgb(3, 218, 218), 2) !default;
+@import '../../node_modules/materialize-css/sass/materialize.scss';
 
 .button {
   color: blue;

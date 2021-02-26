@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <%- include('../partials/head', {title: entryName}); %>
 </head>
+
 <body>
-  <%- include('../partials/header'); %>
+  <div class="container">
+    <%- include('../partials/header'); %>
 
-  <%= entryName %>
-  <%= entry.overviewLinks[0].name %>
+    <h2 class="center-align"><%= entryName %></h1>
+      <ul>
+        <li><%= entryData.overviewLinks[0].name %></li>
+      </ul>
 
-  <%- include('../partials/footer'); %>
-
+      <%- include('../partials/footer'); %>
+  </div>
 </body>
-</html>
 
+</html>
