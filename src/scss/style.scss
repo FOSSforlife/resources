@@ -1,12 +1,13 @@
-$primary-color: lighten(rgb(3, 218, 218), 2) !default;
+$primary-color: lighten(rgb(3, 218, 21), 2) !default;
 @import '../../node_modules/materialize-css/sass/materialize.scss';
 
-.button {
-  color: blue;
-
-  .text {
-    color: white;
-  }
+h1 {
+  font-size: 30px;
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
 }
 
 // materialize:
