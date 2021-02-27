@@ -1,1 +1,1 @@
-const instance = M.Tabs.init(el, options);
+M.AutoInit();

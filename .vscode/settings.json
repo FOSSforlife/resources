@@ -1,3 +1,7 @@
 {
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "html.validate.scripts": false, // needed for EJS
+  "[html]": {
+    "editor.formatOnSave": false
+  }
 }

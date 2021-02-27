@@ -1,4 +1,4 @@
-$primary-color: lighten(rgb(3, 218, 21), 2) !default;
+$primary-color: rgb(36, 241, 53) !default;
 $tabs-text-color: white;
 @import '../../node_modules/materialize-css/sass/materialize.scss';
 
@@ -24,9 +24,10 @@ h6 {
   margin-bottom: 0;
 }
 
+// https://github.com/Dogfalo/materialize/blob/v1-dev/sass/components/_tabs.scss
 .tabs {
   .tab a {
-    background-color: transparentize($tabs-underline-color, 0.4);
+    background-color: darken($tabs-underline-color, 22);
     color: white;
     font-weight: bold;
     border-radius: 5px;
@@ -35,9 +36,14 @@ h6 {
     line-height: 34px;
     text-transform: none;
 
-    &.active {
-      background-color: $tabs-underline-color;
+    &:focus,
+    &:focus.active,
+    &:hover {
+      background-color: darken($tabs-underline-color, 15);
       color: white;
+    }
+    &.active {
+      background-color: darken($tabs-underline-color, 10);
     }
   }
 }
@@ -49,7 +55,29 @@ h6 {
 .subreddit-text {
   .item-name,
   .item-hostname {
-    color: rgb(238, 107, 0);
+    color: rgb(226, 155, 1);
+  }
+}
+
+.wikipedia {
+  table {
+    display: none;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 1.9rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.3rem;
+  }
+  h6 {
+    font-size: 1.05rem;
   }
 }
 

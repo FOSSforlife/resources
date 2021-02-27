@@ -15,18 +15,25 @@
       </div>
       <div class="divider"></div><br>
 
+      <script src="js/embed.js"></script>
       <ul class="tabs">
-        <li class="tab"><a class="active" href="#test1">Links</a></li>
-        <li class="tab"><a href="#test2">Wikipedia</a></li>
+        <li class="tab"><a class="active" href="#links">Links</a></li>
+        <li class="tab"><a href="#wikipedia">Wikipedia</a></li>
       </ul>
-      <%- include('../partials/links', { sections: entryData.sections }); %>
-
+      <div id="links">
+        <% if(entryData.sections) { %>
+        <%- include('../partials/links', { sections: entryData.sections }); %>
+        <% } %>
+      </div>
+      <div id="wikipedia">
+        <%- include('../partials/embed', { embedData: {type: 'wikipedia', entryName} }); %>
+      </div>
       <%- include('../partials/footer', { entryName }); %>
     </div>
     <div class="col m3"></div>
   </div>
-
   <script src="js/entry.js"></script>
+
 </body>
 
 </html>
