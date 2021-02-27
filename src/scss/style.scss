@@ -46,6 +46,13 @@ h6 {
   color: #026962;
 }
 
+.subreddit-text {
+  .item-name,
+  .item-hostname {
+    color: rgb(238, 107, 0);
+  }
+}
+
 // materialize:
 // preloader
 // collapsible
