@@ -10,6 +10,7 @@
     <h6><%= subSectionTitle %></h6>
   </div>
 
+  <%= description || '' %>
   <% for(const item of items) { %>
   <% if(item.url) { %>
   <a href="<%= item.url %>" class="collection-item<%= subredditText(item.url) %>">

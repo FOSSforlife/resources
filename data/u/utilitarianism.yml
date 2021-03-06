@@ -1,0 +1,759 @@
+config:
+  tags:
+    - ethics
+
+sectionDescriptions:
+  Utilitarianism.com: Links imported from the home page of [Utilitarianism.com](https://www.utilitarianism.com).
+
+sections:
+  Utilitarianism.com:
+    - name: Home Page
+      url: https://www.utilitarianism.com
+
+    - name: Utilitarian Glossary
+      url: https://www.utilitarianism.com/glossary.htm
+
+    - name: The Principles of Morals and Legislation (Jeremy Bentham)
+      url: https://www.utilitarianism.com/jeremy-bentham/index.html
+
+    - name: Introduction to Utilitarianism (Lazari-Radek, Singer, pdf)
+      url: https://www.utilitarianism.com/introduction.pdf
+
+    - name: Utilitarianism (Geofrrey Scarre, pdf)
+      url: https://www.utilitarianism.com/utilitarianism.pdf
+
+    - name: A History of Utilitarianism (Stanford Encylopedia)
+      url: https://www.utilitarianism.com/http://plato.stanford.edu/entries/utilitarianism-history/
+
+    - name: Utilitarianism (J.S. Mill, pdf)
+      url: https://www.utilitarianism.com/jsmill-utilitarianism.pdf
+
+    - name: Autobiography (J.S. Mill, pdf)
+      url: https://www.utilitarianism.com/mill-autobiography.pdf
+
+    - name: target=blank>Utilitarian.org (Nigel Phillips)
+      url: https://www.utilitarian.org/
+
+    - name: John Stuart Mill (biographical details)
+      url: https://www.utilitarianism.com/jsmill.htm
+
+    - name: 'J.S. Mill: Biography (Richard Reeves)'
+      url: https://www.utilitarianism.com/johnstuartmill.htm
+
+    - name: Mill's Utilitarian Ethics (Henry West, pdf)
+      url: https://www.utilitarianism.com/mill-utilitarianethics.pdf
+
+    - name: Guide to Mill's Utilitarianism (pdf)
+      url: https://www.utilitarianism.com/guide.pdf
+
+    - name: J.S.Mill
+      url: https://www.utilitarianism.com/http://www.utm.edu/research/iep/m/milljs.htm
+
+    - name: Utilitarianism
+      url: https://www.utilitarianism.com/http://www.newadvent.org/cathen/15241c.htm
+
+    - name: Utilitarianism (Encyclopaedia Britannica)
+      url: https://www.utilitarianism.com/utilitarianism.html
+
+    - name: Utilitarianism (Wikipedia)
+      url: https://en.wikipedia.org/wiki/Utilitarianism
+
+    - name: Utilitarian Philosophers
+      url: https://www.utilitarianism.com/http://www.utilitarian.net/
+
+    - name: Essays on Reducing Suffering (Brian Tomasik)
+      url: https://www.utilitarianism.com/http://reducing-suffering.org/
+
+    - name: Negative Utilitarianism (NU Study Group, 2016)
+      url: https://www.utilitarianism.com/nu/nufaq.html
+
+    - name: Suffering-Focused Ethics (Magnus Vinding, 2020)
+      url: https://www.amazon.com/dp/B089CSQX73/ref=rdr_kindle_ext_tmb
+
+    - name: The Ones Who Walk Away from Omelas (Ursula K. Le Guin, pdf)
+      url: https://www.utilitarianism.com/nu/omelas.pdf
+
+    - name: Ethicspapers.com
+      url: https://www.utilitarianism.com/http://www.ethicspapers.com/
+
+    - name: Jeremy Bentham Returns
+      url: https://www.utilitarianism.com/jeremy-bentham/jb.html
+
+    - name: Jeremy Bentham Links
+      url: https://www.utilitarianism.com/http://www.utilitarian.net/bentham/
+
+    - name: Jeremy Bentham's Greatest Happiness Principle (pdf)
+      url: https://www.utilitarianism.com/jeremy-bentham/greatest-happiness.pdf
+
+    - name: Transcribe Bentham
+      url: https://www.utilitarianism.com/http://www.ucl.ac.uk/transcribe-bentham/
+
+    - name: Jeremy Bentham
+      url: https://www.utilitarianism.com/http://www.utm.edu/research/iep/b/bentham.htm
+
+    - name: Peter Singer
+      url: https://www.utilitarianism.com/http://www.princeton.edu/~psinger/
+
+    - name: Peter Singer links
+      url: https://www.utilitarianism.com/http://www.utilitarian.net/singer/
+
+    - name: Animal Liberation by Peter Singer
+      url: https://en.wikipedia.org/wiki/Animal_Liberation_(book)
+
+    - name: Famine, Richesse et Moralite (Peter Singer, French tr.)
+      url: https://www.utilitarianism.com/peter-singer/index.html
+
+    - name: Animal Ethics
+      url: https://www.animal-ethics.org/utilitarianism/
+
+    - name: John Stuart Mill Links
+      url: https://www.utilitarianism.com/http://www.utilitarian.net/jsmill/
+
+    - name: The Harm of Death (Magnus Vinding)
+      url: https://www.utilitarianism.com/magnus-vinding/harm-death.html
+
+    - name: Utilitarianism
+      url: https://www.utilitarianism.com/mill1.htm
+
+    - name: The Principle of Utility (J.S.Mill)
+      url: https://www.utilitarianism.com/mill2.htm
+
+    - name: Utilitarianism by J.S. Mill (pdf)
+      url: https://www.utilitarianism.com/utilitarianism-jsmill.pdf
+
+    - name: Utilitarianism by J.S. Mill (Spanish tran., pdf)
+      url: https://www.utilitarianism.com/utilitarismo.pdf
+
+    - name: On Liberty (J.S. Mill)
+      url: https://www.utilitarianism.com/ol/one.html
+
+    - name: Guidebook on Mill's On Liberty (Jonathan Riley, pdf)
+      url: https://www.utilitarianism.com/guidebook-liberty.pdf
+
+    - name: Critical Guide to Mill's On Liberty (C.L.Ten, ed., pdf)
+      url: https://www.utilitarianism.com/liberty-guide.pdf
+
+    - name: A Selection of J.S. Mill (pdf)
+      url: https://www.utilitarianism.com/mill-selection.pdf
+
+    - name: Questions on J.S. Mill
+      url: https://www.utilitarianism.com/http://www.missouri.edu/~philrnj/mill.html
+
+    - name: J.S. Mill Revisited (pdf) <br>
+      url: https://www.utilitarianism.com/ol/revisited.pdf
+
+    - name: J.S. Mill's Political Thought (pdf)<bR>
+      url: https://www.utilitarianism.com/ol/bicentennial.pdf
+
+    - name: Guidebook to Mill on Utilitarianism (pdf)
+      url: https://www.utilitarianism.com/guidebook.pdf
+
+    - name: Utilitarianism Primer (R. N. Johnson)
+      url: https://eidetisch.wordpress.com/2013/03/22/primer-on-the-elements-and-forms-of-utilitarianism/
+
+    - name: Global Happiness Organisation
+      url: https://www.utilitarianism.com/http://www.globalhappiness.com/
+
+    - name: Sentience Politics
+      url: https://sentience-politics.org/
+
+    - name: Effective Altruism
+      url: https://en.wikipedia.org/wiki/Effective_altruism
+
+    - name: Felicifia (Seth Baum)
+      url: https://www.utilitarianism.com/http://felicifia.blogspot.com/
+
+    - name: Essays on John Stuart Mill
+      url: https://www.utilitarianism.com/http://www.john-stuart-mill.com/
+
+    - name: Utilitas
+      url: https://www.utilitarianism.com/http://journals.cambridge.org/action/displayJournal?jid=UTI/
+
+    - name: Pleasure
+      url: https://www.utilitarianism.com/http://plato.stanford.edu/entries/pleasure/
+
+    - name: Hedonism
+      url: https://www.utilitarianism.com/http://plato.stanford.edu/entries/hedonism/
+
+    - name: target=blank>Hedonism (Wikipedia)
+      url: https://en.wikipedia.org/wiki/Hedonism
+
+    - name: Hedonism Reconsidered
+      url: https://www.utilitarianism.com/hedonism-reconsidered.html
+
+    - name: Hedonistic Utilitarianism (Torbjörn Tännsjö, pdf)
+      url: https://www.utilitarianism.com/hedonistic-utilitarianism.pdf
+
+    - name: Epicurus
+      url: https://www.utilitarianism.com/http://www.utm.edu/research/iep/e/epicur.htm
+
+    - name: Aristippus
+      url: https://www.utilitarianism.com/http://www.utm.edu/research/iep/a/aristip.htm
+
+    - name: Cyrenaic Philosophy
+      url: https://www.utilitarianism.com/http://www.utm.edu/research/iep/c/cyren.htm
+
+    - name: The Cyrenaics and the Origins of Hedonism
+      url: https://www.hedonism.org/hedonism/
+
+    - name: Utilitarianism (Reddit Discussion forum)
+      url: https://www.reddit.com/r/Utilitarianism/
+
+    - name: 'Utilitarianism: For and Against (J.J.C. Smart & Bernard Williams, pdf)'
+      url: https://www.utilitarianism.com/utilitarianism-for-and-against.pdf
+
+    - name: The Limits of Utilitarianism (Harlan Miller, pdf)
+      url: https://www.utilitarianism.com/utilitarianism-limits.pdf
+
+    - name: Modern Utilitarianism (pdf)
+      url: https://www.utilitarianism.com/modern-utilitarianism.pdf
+
+    - name: Utilitarian Essays
+      url: https://www.utilitarianism.com/http://www.utilitarian-essays.com/
+
+    - name: Reddit Classical Utilitarianism
+      url: https://www.reddit.com/r/Utilitarianism/
+
+    - name: Reddit Negative Utilitarianism
+      url: https://www.reddit.com/r/negativeutilitarians/
+
+    - name: Understanding Utilitarianism (Tim Mulgan, pdf)
+      url: https://www.utilitarianism.com/util.pdf
+
+    - name: Utilitarianism, Institutions and Justice (James Bailey, pdf)
+      url: https://www.utilitarianism.com/utilitarianism-justice.pdf
+
+    - name: The elimination of morality (Anne Maclean, pdf)
+      url: https://www.utilitarianism.com/morality.pdf
+
+    - name: Taking Utilitarianism Seriously (Christopher Woodard, pdf)
+      url: https://www.utilitarianism.com/utilitarianism-seriously.pdf
+
+    - name: 'Utilitarianism: Guide for the Perplexed (pdf)'
+      url: https://www.utilitarianism.com/perplexed.pdf
+
+    - name: Ethics 101 (Brian Boone, pdf)
+      url: https://www.utilitarianism.com/ethics101.pdf
+
+    - name: The Forms and Limits of Utilitarianism (Lyons, pdf)
+      url: https://www.utilitarianism.com/forms-limits.pdf
+
+    - name: Classical Utilitarianism from Mill to Hume (Rosen, pdf)
+      url: https://www.utilitarianism.com/classical-utilitarianism.pdf
+
+    - name: Utilitarianism and Beyond (Sen, Williams, pdf)
+      url: https://www.utilitarianism.com/beyond.pdf
+
+    - name: A History of English Utilitarianism (Ernest Albee, pdf)
+      url: https://www.utilitarianism.com/english-utilitarianism.pdf
+
+    - name: Ethics, A Very Short Introduction (Simon Blackburn, pdf)
+      url: https://www.utilitarianism.com/ethics-intro.pdf
+
+    - name: Liberalism Utilitarianism and Applied Ethics (Matti Hayry, pdf)
+      url: https://www.utilitarianism.com/liberal-utilitarianism.pdf
+
+    - name: Negative Utilitarianism (Wikipedia)
+      url: https://en.wikipedia.org/wiki/Negative_utilitarianism
+
+    - name: The World Destruction Argument (Simon Knutsson)
+      url: https://www.tandfonline.com/doi/full/10.1080/0020174X.2019.1658631
+
+    - name: Hostility and the Minimization of Suffering (Socrethics)
+      url: https://www.utilitarianism.com/http://www.socrethics.com/Folder2/NU.htm
+
+    - name: Consequentialism and decision procedures (Toby Ord)
+      url: https://www.utilitarianism.com/http://www.amirrorclear.net/academic/papers/decision-procedures.pdf
+
+    - name: Bentham Project
+      url: https://www.utilitarianism.com/http://www.ucl.ac.uk/Bentham-Project
+
+    - name: Nozick's
+      url: https://www.utilitarianism.com/http://www.bu.edu/wcp/Papers/Valu/ValuRive.htm
+
+    - name: Jeremy Bentham
+      url: https://www.utilitarianism.com/bentham.htm
+
+    - name: 'Jeremy Bentham: the radical fool of capitalism (pdf)'
+      url: https://www.utilitarianism.com/radical-fool.pdf
+
+    - name: 'Jeremy Bentham: life'
+      url: https://www.utilitarianism.com/jeremy-bentham/life.html
+
+    - name: Jeremy's Labyrinth
+      url: https://www.utilitarianism.com/http://www.la.utexas.edu/research/poltheory/bentham/index.html
+
+    - name: A Critique of Elie Halévy (Francisco Vergara)
+      url: https://www.utilitarianism.com/vergara/halevy.htm
+
+    - name: The Utilitarian Foundations Of Collectivism (Axel Davies on Bentham)
+      url: https://www.utilitarianism.com/jeremy-bentham/bentham.html
+
+    - name: Essays on Bentham (H.L.A. Hart, pdf)
+      url: https://www.utilitarianism.com/essays-bentham.pdf
+
+    - name: Utility and Democracy (Philip Shofield, pdf)
+      url: https://www.utilitarianism.com/utility-democracy.pdf
+
+    - name: Act and Rule Utilitarianism
+      url: https://www.utilitarianism.com/http://www.iep.utm.edu/util-a-r/
+
+    - name: Rincón de ética y moral (Carmen Chase)
+      url: https://www.utilitarianism.com/http://pixnaps.blogspot.com/2005/06/indirect-utilitarianism.html
+
+    - name: Precedent Utilitarianism (Douglas Reay)
+      url: https://www.utilitarianism.com/http://cnx.org/content/m14375/latest/
+
+    - name: Utilitarianism
+      url: https://www.utilitarian.org/faq.html
+
+    - name: Edmund
+      url: https://www.utilitarianism.com/gurney/index.html
+
+    - name: Panetics
+      url: https://www.utilitarianism.com/http://www.panetics.org/
+
+    - name: World Database of Happiness
+      url: https://www.utilitarianism.com/http://worlddatabaseofhappiness.eur.nl/
+
+    - name: Justice and Hedonism (J. Mikael Olsson)
+      url: https://justiceandhedonism.wordpress.com/
+
+    - name: The Road to Happiness (Prof. Yew-Kwang Ng & Siang Ng)
+      url: https://www.utilitarianism.com/prof-ng/index.html
+
+    - name: Utility Monster
+      url: https://en.wikipedia.org/wiki/Utility_monster
+
+    - name: List of Utilitarians
+      url: https://en.wikipedia.org/wiki/List_of_utilitarians
+
+    - name: Sidgwick's Methods of Ethics (pdf)
+      url: https://www.utilitarianism.com/methods-of-ethics.pdf
+
+    - name: The Cosmos of Duty (Roger Crisp, pdf)
+      url: https://www.utilitarianism.com/cosmos-duty.pdf
+
+    - name: The Eye of the Universe (Bart Schultz, pdf)
+      url: https://www.utilitarianism.com/eye-universe.pdf
+
+    - name: Essays on Sidgwick's Methods of Ethics (pdf)
+      url: https://www.utilitarianism.com/essays.pdf
+
+    - name: Sidgwick and Contemporary Utilitarianism (pdf)
+      url: https://www.utilitarianism.com/contemporary-utilitarianism.pdf
+
+    - name: Human News
+      url: https://www.utilitarianism.com/http://www.ideaexplore.net/news/
+
+    - name: Utilitarianism and Cooperation (Donald Regan, pdf)
+      url: https://www.utilitarianism.com/utilitarianism-cooperation.pdf
+
+    - name: Would You Kill the Fat Man? The Trolley Problem (David Edmonds, pdf)
+      url: https://www.utilitarianism.com/trolley-problem.pdf
+
+    - name: Average and Total Utilitarianism (Wikipedia)
+      url: https://en.wikipedia.org/wiki/Average_and_total_utilitarianism
+
+    - name: Hedonium / Utilitronium
+      url: https://www.quora.com/What-does-David-Pearce-see-as-the-ideal-final-state-of-sentience-that-is-technologically-achievable-Is-it-pure-hedonium-utilitronium-and-what-would-that-feel-like-Would-it-be-timeless-or-include-some-sort-of-dynamic
+
+    - name: Infinite Ethics (Nick Bostrom)
+      url: https://www.utilitarianism.com/http://www.nickbostrom.com/ethics/infinite.pdf
+
+    - name: Letter from Utopia
+      url: https://www.utilitarianism.com/http://www.nickbostrom.com/utopia.html
+
+    - name: Invincible WellBeing (Jacob Shwartz-Lucas)
+      url: https://www.invinciblewellbeing.com/
+
+    - name: Utilitarian Conversations (Gus Docker)
+      url: https://anchor.fm/utilitarian/
+
+    - name: Introduction to Utilitarianism (Darius Meißner, James Aung & Will MacAskill)
+      url: https://www.utilitarianism.net/
+
+    - name: Utilitarianism as a Public Philosophy (Robert Goodin, pdf)
+      url: https://www.utilitarianism.com/utilitarian.pdf
+
+    - name: Biohappiness (Wikipedia)
+      url: https://en.wikipedia.org/wiki/Biohappiness
+
+    - name: Journal
+      url: https://www.utilitarianism.com/http://www.kluweronline.com/issn/1389-4978
+
+    - name: Happiness Quotations
+      url: https://www.paradise-engineering.com/quotation/index.html
+
+    - name: Utilitarianism (Gareth McCaughan)
+      url: https://www.utilitarianism.com/http://www.mccaughan.org.uk/g/essays/utility.html
+
+    - name: The Birth of Hedonism (The Cyranaic Philosophers and Pleasure as a Way of Life, pdf)
+      url: https://www.utilitarianism.com/birth-hedonism.pdf
+
+    - name: Utilitarian Ethics (Anthony Quinton, pdf)
+      url: https://www.utilitarianism.com/http://www.utilitarianism.com/utilitarian-ethics.pdf
+
+    - name: A Short History of Ethics (Alistair MacIntyre, pdf)
+      url: https://www.utilitarianism.com/http://www.utilitarianism.com/history-ethics.pdf
+
+    - name: The Happiness Philosophers (pdf)
+      url: https://www.utilitarianism.com/http://www.utilitarianism.com/happiness-philosophers.pdf
+
+    - name: Utilitarianism (video introduction)
+      url: https://www.youtube.com/watch?v=uvmz5E75ZIA
+
+    - name: Utilitarismus
+      url: https://www.utilitarianism.com/http://www.utilitarismus.de/
+
+    - name: The Singer Solution to World Poverty
+      url: https://www.utilitarianism.com/http://www.utilitarian.net/singer/by/19990905.htm
+
+    - name: The Point of View of the Universe (pdf)
+      url: https://www.utilitarianism.com/view-universe.pdf
+
+    - name: Encyclopedia of Science, Technology and Ethics (Carl Mitcham, ed., pdf)
+      url: https://www.utilitarianism.com/encyclopedia.pdf
+
+    - name: Utility Monster
+      url: https://en.wikipedia.org/wiki/Utility_monster
+
+    - name: Modified Negative Utilitarianism (Dan Geinster)
+      url: https://www.utilitarianism.com/http://www.antihurt.com/
+
+    - name: 'Better Never to Have Been: The Harm of Coming into Existence'
+      url: https://www.utilitarianism.com/benatar/index.html
+
+    - name: Utilitarian Philosophers (Wikipedia)
+      url: https://en.wikipedia.org/wiki/List_of_utilitarians
+
+    - name: Negative Utilitarian Justice (Socrethics)
+      url: https://www.utilitarianism.com/http://www.socrethics.com/Folder2/Justice.htm
+
+    - name: Utiltarianism in the Age of Enlightenment (pdf)
+      url: https://www.utilitarianism.com/utilitarianism-enlightenment.pdf
+
+    - name: Justice, Political Liberalism and Utilitarianism (pdf)
+      url: https://www.utilitarianism.com/justice.pdf
+
+    - name: Perspectives on Peter Singer (pdf)
+      url: https://www.utilitarianism.com/perspectives.pdf
+
+    - name: 'Damage to the prefrontal cortex increases utilitarian moral judgements (Koenigs et al; pdf)'
+      url: https://www.utilitarianism.com/utilitarian-moraljudgments.pdf
+
+    - name: Hedonism, Utilitarianism and Consumer Behavior (Daniele Scarpi, pdf)
+      url: https://www.utilitarianism.com/hedonism-utilitarianism.pdf
+
+    - name: To what extent is Utilitarianism compatible with Christian theology? (Paul Hibberd)
+      url: https://www.utilitarianism.com/hibberd/index.html
+
+    - name: 'Pandemic Ethics: Utilitarianism and Lockdown'
+      url: https://www.utilitarianism.com/http://blog.practicalethics.ox.ac.uk/2020/05/pandemic-ethics-utilitarianism-and-the-lockdown/
+
+    - name: Utopian Brain Stimulation? <BR>
+      url: https://www.wireheading.com/brain-stimulation.html
+
+    - name: Riley-Day syndrome <br>
+      url: https://www.wireheading.com/riley-day/index.html
+
+    - name: R.N. Smart's reply to Popper
+      url: https://www.utilitarianism.com/rnsmart-negutil.html
+
+    - name: Wild Animal Suffering
+      url: https://en.wikipedia.org/wiki/Wild_animal_suffering
+
+    - name: Portrait of an Ideal World (H.L. Mencken)
+      url: https://www.paradise-engineering.com/misc/
+
+    - name: Operationalising Gross National Happiness
+      url: https://www.paradise-engineering.com/happiness/
+
+    - name: Economics and Happiness
+      url: https://www.utilitarianism.com/happiness/economics.html
+
+    - name: Happiness (Richard Layard)
+      url: https://www.utilitarianism.com/happiness/index.html
+
+    - name: In Praise of Bio-Happiness (Mark Walker)
+      url: https://archive.ieet.org/archive/IEET-02-BioHappiness.pdf
+
+    - name: 'Internetowy Serwis Filozoficzny: Utylitaryzm (Polish)'
+      url: https://www.utilitarianism.com/http://www.diametros.iphils.uj.edu.pl/?l=1&p=lin2&m=105&a=177&c=6
+
+    - name: O Argumento da Alfinetada (Brazilian Portuguese)
+      url: https://www.utilitarianism.com/brazilian-portuguese/index.html
+
+    - name: Bioética Utilitarista (Brazilian Portuguese)
+      url: https://www.utilitarianism.com/brazilian-portuguese/bioetica.html
+
+    - name: El Imperativo De Abolir El Sufrimiento (Spanish)
+      url: https://sentience-research.org/el-imperativo-de-abolir-el-sufrimiento-una-entrevista-con-david-pearce/
+
+    - name: Nietzsche's Critique of Utilitarianism
+      url: https://philpapers.org/archive/ANONCO
+
+    - name: Torbjörn Tännsjö
+      url: https://en.wikipedia.org/wiki/Torbjörn_Tännsjö
+
+    - name: Elon Musk / Neuralink
+      url: https://www.utilitarianism.com/elon-musk.html
+
+    - name: The Pleasure Seekers <BR>
+      url: https://www.wireheading.com/pleasure.html
+
+    - name: Utilitarian Memes for Utopian Teens (illustrated)
+      url: https://www.utilitarianism.com/utilitarian-memes/index.html
+
+    - name: Precursors of Utilitarianism
+      url: https://www.utilitarianism.com/mo-tzu.html
+
+    - name: Happiness Becomes You (Jon Martin)
+      url: https://www.hedweb.com/jon-martin/index.html
+
+    - name: Negative Utilitarianism
+      url: https://www.quora.com/How-would-you-argue-that-negative-utilitarianism-is-ethically-correct
+
+    - name: The End of Suffering (Katherine Power)
+      url: https://www.hedweb.com/hedethic/end-suffering.html
+
+    - name: The Reproductive Revolution <br>
+      url: https://www.reproductive-revolution.com/index.html
+
+    - name: Quantum Ethics?
+      url: https://www.abolitionist.com/multiverse.html
+
+    - name: Reprogramming Predators
+      url: https://www.abolitionist.com/reprogramming/index.html
+
+    - name: Parfit's Repugnant Conclusion
+      url: https://www.repugnant-conclusion.com/
+
+    - name: Buddhism and Utilitarianism
+      url: https://www.bltc.com/buddhism-suffering.html
+
+    - name: Utilitarian Bioethics
+      url: https://www.utilitarianism.com/biotech.html
+
+    - name: The Post-CRISPR Biosphere
+      url: https://www.gene-drives.com/
+
+    - name: "Velpeau's Chimera: Utopian Surgery?"
+      url: https://www.general-anaesthesia.com/
+
+    - name: Superhappiness?
+      url: https://www.superhappiness.com/index.html
+
+    - name: 'MDMA: Utopian Pharmacology'
+      url: https://www.mdma.net/
+
+    - name: Wirehead Hedonism <br>
+      url: https://www.wireheading.com/
+
+    - name: Paradise-Engineering
+      url: https://www.paradise-engineering.com/
+
+    - name: The Hedonistic Imperative
+      url: https://www.hedweb.com/hedab.htm
+
+    - name: Critique of Aldous Huxley's Brave New World
+      url: https://www.huxley.net/
+
+    - name: The Abolitionist Project
+      url: https://www.abolitionist.com/
+
+    - name: Negative Utilitarianism and the Pinprick Argument
+      url: https://www.utilitarianism.com/pinprick-argument.html
+
+    - name: The Biointelligence Explosion
+      url: https://www.biointelligence-explosion.com/
+
+    - name: Negative Utilitarianism and Utilitronium Shockwaves
+      url: https://www.hedweb.com/social-media/pre2014.html
+# <a href="https://www.utilitarianism.com/glossary.htm">Utilitarian Glossary
+# <a href="https://www.utilitarianism.com/jeremy-bentham/index.html">The Principles of Morals and Legislation (Jeremy Bentham)
+# <a href="https://www.utilitarianism.com/introduction.pdf">Introduction to Utilitarianism (Lazari-Radek, Singer, pdf)
+# <a href="https://www.utilitarianism.com/utilitarianism.pdf">Utilitarianism (Geofrrey Scarre, pdf)
+# <a href="https://www.utilitarianism.com/http://plato.stanford.edu/entries/utilitarianism-history/">A History of Utilitarianism (Stanford Encylopedia)
+# <a href="https://www.utilitarianism.com/jsmill-utilitarianism.pdf">Utilitarianism (J.S. Mill, pdf)
+# <a href="https://www.utilitarianism.com/mill-autobiography.pdf">Autobiography (J.S. Mill, pdf)
+# <a href="https://www.utilitarian.org/" target=blank>Utilitarian.org (Nigel
+# <a href="https://www.utilitarianism.com/jsmill.htm">John Stuart Mill (biographical details)
+# <a href="https://www.utilitarianism.com/johnstuartmill.htm">J.S. Mill: Biography (Richard Reeves)
+# <a href="https://www.utilitarianism.com/mill-utilitarianethics.pdf">Mill's Utilitarian Ethics (Henry West, pdf)
+# <a href="https://www.utilitarianism.com/guide.pdf">Guide to Mill's Utilitarianism (pdf)
+# <a href="https://www.utilitarianism.com/http://www.utm.edu/research/iep/m/milljs.htm">J.S.Mill
+# <a href="https://www.utilitarianism.com/http://www.newadvent.org/cathen/15241c.htm">Utilitarianism
+# <a href="https://www.utilitarianism.com/utilitarianism.html">Utilitarianism (Encyclopaedia Britannica)
+# <a href="https://en.wikipedia.org/wiki/Utilitarianism">Utilitarianism (Wikipedia)
+# <a href="https://www.utilitarianism.com/http://www.utilitarian.net/">Utilitarian Philosophers
+# <a href="https://www.utilitarianism.com/http://reducing-suffering.org/">Essays on Reducing Suffering (Brian Tomasik)
+# <a href="https://www.utilitarianism.com/nu/nufaq.html"Negative Utilitarianism (NU Study Group, 2016)
+# <a href="https://www.amazon.com/dp/B089CSQX73/ref=rdr_kindle_ext_tmb">Suffering-Focused Ethics (Magnus Vinding, 2020)
+# <a href="https://www.utilitarianism.com/nu/omelas.pdf">The Ones Who Walk Away from Omelas (Ursula K. Le Guin, pdf)
+# <a href="https://www.utilitarianism.com/http://www.ethicspapers.com/">Ethicspapers.com
+# <a href="https://www.utilitarianism.com/jeremy-bentham/jb.html">Jeremy Bentham Returns
+# <a href="https://www.utilitarianism.com/http://www.utilitarian.net/bentham/">Jeremy Bentham Links
+# <a href="https://www.utilitarianism.com/jeremy-bentham/greatest-happiness.pdf">Jeremy Bentham's Greatest Happiness Principle (pdf)
+# <a href="https://www.utilitarianism.com/http://www.ucl.ac.uk/transcribe-bentham/">Transcribe Bentham
+# <a href="https://www.utilitarianism.com/http://www.utm.edu/research/iep/b/bentham.htm">Jeremy Bentham
+# <a href="https://www.utilitarianism.com/http://www.princeton.edu/~psinger/">Peter Singer
+# <a href="https://www.utilitarianism.com/http://www.utilitarian.net/singer/">Peter Singer links
+# <a href="https://en.wikipedia.org/wiki/Animal_Liberation_(book)">Animal Liberation by Peter Singer
+# <a href="https://www.utilitarianism.com/peter-singer/index.html">Famine, Richesse et Moralite (Peter Singer, French tr.)
+# <a href="https://www.animal-ethics.org/utilitarianism/">Animal Ethics
+# <a href="https://www.utilitarianism.com/http://www.utilitarian.net/jsmill/">John Stuart Mill Links
+# <a href="https://www.utilitarianism.com/magnus-vinding/harm-death.html"The Harm of Death (Magnus Vinding)
+# <a href="https://www.utilitarianism.com/mill1.htm">Utilitarianism
+# <a href="https://www.utilitarianism.com/mill2.htm">The Principle of Utility (J.S.Mill)
+# <a href="https://www.utilitarianism.com/utilitarianism-jsmill.pdf">Utilitarianism by J.S. Mill (pdf)
+# <a href="https://www.utilitarianism.com/utilitarismo.pdf">Utilitarianism by J.S. Mill (Spanish tran., pdf)
+# <a href="https://www.utilitarianism.com/ol/one.html">On Liberty (J.S. Mill)
+# <a href="https://www.utilitarianism.com/guidebook-liberty.pdf">Guidebook on Mill's On Liberty (Jonathan Riley, pdf)
+# <a href="https://www.utilitarianism.com/liberty-guide.pdf">Critical Guide to Mill's On Liberty (C.L.Ten, ed., pdf)
+# <a href="https://www.utilitarianism.com/mill-selection.pdf">A Selection of J.S. Mill (pdf)
+# <a href="https://www.utilitarianism.com/http://www.missouri.edu/~philrnj/mill.html">Questions on J.S. Mill
+# <a href="https://www.utilitarianism.com/ol/revisited.pdf">J.S. Mill Revisited (pdf) <br>
+# <a href="https://www.utilitarianism.com/ol/bicentennial.pdf">J.S. Mill's Political Thought (pdf)<bR>
+# <a href="https://www.utilitarianism.com/guidebook.pdf">Guidebook to Mill on Utilitarianism (pdf)
+# <a href="https://eidetisch.wordpress.com/2013/03/22/primer-on-the-elements-and-forms-of-utilitarianism/">Utilitarianism Primer (R. N. Johnson)
+# <a href="https://www.utilitarianism.com/http://www.globalhappiness.com/">Global Happiness Organisation
+# <a href="https://sentience-politics.org/">Sentience Politics
+# <a href="https://en.wikipedia.org/wiki/Effective_altruism">Effective Altruism
+# <a href="https://www.utilitarianism.com/http://felicifia.blogspot.com/">Felicifia (Seth Baum)
+# <a href="https://www.utilitarianism.com/http://www.john-stuart-mill.com/">Essays on John Stuart Mill
+# <a href="https://www.utilitarianism.com/http://journals.cambridge.org/action/displayJournal?jid=UTI/">Utilitas
+# <a href="https://www.utilitarianism.com/http://plato.stanford.edu/entries/pleasure/">Pleasure
+# <a href="https://www.utilitarianism.com/http://plato.stanford.edu/entries/hedonism/">Hedonism
+# <a href="https://en.wikipedia.org/wiki/Hedonism" target=blank>Hedonism (Wikipedia)
+# <a href="https://www.utilitarianism.com/hedonism-reconsidered.html"Hedonism Reconsidered
+# <a href="https://www.utilitarianism.com/hedonistic-utilitarianism.pdf">Hedonistic Utilitarianism (Torbjörn Tännsjö, pdf)
+# <a href="https://www.utilitarianism.com/http://www.utm.edu/research/iep/e/epicur.htm">Epicurus
+# <a href="https://www.utilitarianism.com/http://www.utm.edu/research/iep/a/aristip.htm">Aristippus
+# <a href="https://www.utilitarianism.com/http://www.utm.edu/research/iep/c/cyren.htm">Cyrenaic Philosophy
+# <a href="https://www.hedonism.org/hedonism/">The Cyrenaics and the Origins of Hedonism
+# <a href="https://www.reddit.com/r/Utilitarianism/">Utilitarianism (Reddit Discussion forum)
+# <a href="https://www.utilitarianism.com/utilitarianism-for-and-against.pdf">Utilitarianism: For and Against (J.J.C. Smart & Bernard Williams, pdf)
+# <a href="https://www.utilitarianism.com/utilitarianism-limits.pdf">The Limits of Utilitarianism (Harlan Miller, pdf)
+# <a href="https://www.utilitarianism.com/modern-utilitarianism.pdf">Modern Utilitarianism (pdf)
+# <a href="https://www.utilitarianism.com/http://www.utilitarian-essays.com/">Utilitarian Essays
+# <a href="https://www.reddit.com/r/Utilitarianism/">Reddit Classical Utilitarianism
+# <a href="https://www.reddit.com/r/negativeutilitarians/">Reddit Negative Utilitarianism
+# <a href="https://www.utilitarianism.com/util.pdf">Understanding Utilitarianism (Tim Mulgan, pdf)
+# <a href="https://www.utilitarianism.com/utilitarianism-justice.pdf">Utilitarianism, Institutions and Justice (James Bailey, pdf)
+# <a href="https://www.utilitarianism.com/morality.pdf">The elimination of morality (Anne Maclean, pdf)
+# <a href="https://www.utilitarianism.com/utilitarianism-seriously.pdf">Taking Utilitarianism Seriously (Christopher Woodard, pdf)
+# <a href="https://www.utilitarianism.com/perplexed.pdf">Utilitarianism: Guide for the Perplexed (pdf)
+# <a href="https://www.utilitarianism.com/ethics101.pdf">Ethics 101 (Brian Boone, pdf)
+# <a href="https://www.utilitarianism.com/forms-limits.pdf">The Forms and Limits of Utilitarianism (Lyons, pdf)
+# <a href="https://www.utilitarianism.com/classical-utilitarianism.pdf">Classical Utilitarianism from Mill to Hume (Rosen, pdf)
+# <a href="https://www.utilitarianism.com/beyond.pdf">Utilitarianism and Beyond (Sen, Williams, pdf)
+# <a href="https://www.utilitarianism.com/english-utilitarianism.pdf">A History of English Utilitarianism (Ernest Albee, pdf)
+# <a href="https://www.utilitarianism.com/ethics-intro.pdf">Ethics, A Very Short Introduction (Simon Blackburn, pdf)
+# <a href="https://www.utilitarianism.com/liberal-utilitarianism.pdf">Liberalism Utilitarianism and Applied Ethics (Matti Hayry, pdf)
+# <a href="https://en.wikipedia.org/wiki/Negative_utilitarianism">Negative Utilitarianism (Wikipedia)
+# <a href="https://www.tandfonline.com/doi/full/10.1080/0020174X.2019.1658631">The World Destruction Argument (Simon Knutsson)
+# <a href="https://www.utilitarianism.com/http://www.socrethics.com/Folder2/NU.htm">Hostility and the Minimization of Suffering (Socrethics)
+# <a href="https://www.utilitarianism.com/http://www.amirrorclear.net/academic/papers/decision-procedures.pdf">Consequentialism and decision procedures (Toby Ord)
+# <a href="https://www.utilitarianism.com/http://www.ucl.ac.uk/Bentham-Project">Bentham Project
+# <a href="https://www.utilitarianism.com/http://www.bu.edu/wcp/Papers/Valu/ValuRive.htm">Nozick's
+# <a href="https://www.utilitarianism.com/bentham.htm">Jeremy Bentham
+# <a href="https://www.utilitarianism.com/radical-fool.pdf">Jeremy Bentham: the radical fool of capitalism (pdf)
+# <a href="https://www.utilitarianism.com/jeremy-bentham/life.html">Jeremy Bentham: life
+# <a href="https://www.utilitarianism.com/http://www.la.utexas.edu/research/poltheory/bentham/index.html">Jeremy's Labyrinth
+# <a href="https://www.utilitarianism.com/vergara/halevy.htm">A Critique of Elie Halévy (Francisco Vergara)
+# <a href="https://www.utilitarianism.com/jeremy-bentham/bentham.html">The Utilitarian Foundations Of Collectivism (Axel Davies on Bentham)
+# <a href="https://www.utilitarianism.com/essays-bentham.pdf">Essays on Bentham (H.L.A. Hart, pdf)
+# <a href="https://www.utilitarianism.com/utility-democracy.pdf">Utility and Democracy (Philip Shofield, pdf)
+# <a href="https://www.utilitarianism.com/http://www.iep.utm.edu/util-a-r/">Act and Rule Utilitarianism
+# <a href="https://www.utilitarianism.com/http://pixnaps.blogspot.com/2005/06/indirect-utilitarianism.html">Rincón de ética y moral (Carmen Chase)
+# <a href="https://www.utilitarianism.com/http://cnx.org/content/m14375/latest/">Precedent Utilitarianism (Douglas Reay)
+# <a href="https://www.utilitarian.org/faq.html">Utilitarianism
+# <a href="https://www.utilitarianism.com/gurney/index.html">Edmund
+# <a href="https://www.utilitarianism.com/http://www.panetics.org/">Panetics
+# <a href="https://www.utilitarianism.com/http://worlddatabaseofhappiness.eur.nl/">World Database of Happiness
+# <a href="https://justiceandhedonism.wordpress.com/">Justice and Hedonism (J. Mikael Olsson)
+# <a href="https://www.utilitarianism.com/prof-ng/index.html">The Road to Happiness (Prof. Yew-Kwang Ng & Siang Ng)
+# <a href="https://en.wikipedia.org/wiki/Utility_monster">Utility Monster
+# <a href="https://en.wikipedia.org/wiki/List_of_utilitarians">List of Utilitarians
+# <a href="https://www.utilitarianism.com/methods-of-ethics.pdf">Sidgwick's Methods of Ethics (pdf)
+# <a href="https://www.utilitarianism.com/cosmos-duty.pdf">The Cosmos of Duty (Roger Crisp, pdf)
+# <a href="https://www.utilitarianism.com/eye-universe.pdf">The Eye of the Universe (Bart Schultz, pdf)
+# <a href="https://www.utilitarianism.com/essays.pdf">Essays on Sidgwick's Methods of Ethics (pdf)
+# <a href="https://www.utilitarianism.com/contemporary-utilitarianism.pdf">Sidgwick and Contemporary Utilitarianism (pdf)
+# <a href="https://www.utilitarianism.com/http://www.ideaexplore.net/news/">Human News
+# <a href="https://www.utilitarianism.com/utilitarianism-cooperation.pdf">Utilitarianism and Cooperation (Donald Regan, pdf)
+# <a href="https://www.utilitarianism.com/trolley-problem.pdf">Would You Kill the Fat Man? The Trolley Problem (David Edmonds, pdf)
+# <a href="https://en.wikipedia.org/wiki/Average_and_total_utilitarianism">Average and Total Utilitarianism (Wikipedia)
+# <a href="https://www.quora.com/What-does-David-Pearce-see-as-the-ideal-final-state-of-sentience-that-is-technologically-achievable-Is-it-pure-hedonium-utilitronium-and-what-would-that-feel-like-Would-it-be-timeless-or-include-some-sort-of-dynamic">Hedonium / Utilitronium
+# <a href="https://www.utilitarianism.com/http://www.nickbostrom.com/ethics/infinite.pdf">Infinite Ethics (Nick Bostrom)
+# <a href="https://www.utilitarianism.com/http://www.nickbostrom.com/utopia.html">Letter from Utopia
+# <a href="https://www.invinciblewellbeing.com/">Invincible WellBeing (Jacob Shwartz-Lucas)
+# <a href="https://anchor.fm/utilitarian/">Utilitarian Conversations (Gus Docker)
+# <a href="https://www.utilitarianism.net/">Introduction to Utilitarianism (Darius Meißner, James Aung & Will MacAskill)
+# <a href="https://www.utilitarianism.com/utilitarian.pdf">Utilitarianism as a Public Philosophy (Robert Goodin, pdf)
+# <a href="https://en.wikipedia.org/wiki/Biohappiness">Biohappiness (Wikipedia)
+# <a href="https://www.utilitarianism.com/http://www.kluweronline.com/issn/1389-4978">Journal
+# <a href="https://www.paradise-engineering.com/quotation/index.html">Happiness Quotations
+# <a href="https://www.utilitarianism.com/http://www.mccaughan.org.uk/g/essays/utility.html">Utilitarianism (Gareth McCaughan)
+# <a href="https://www.utilitarianism.com/birth-hedonism.pdf">The Birth of Hedonism (The Cyranaic Philosophers and Pleasure as a Way of Life, pdf)
+# <a href="https://www.utilitarianism.com/http://www.utilitarianism.com/utilitarian-ethics.pdf">Utilitarian Ethics (Anthony Quinton, pdf)
+# <a href="https://www.utilitarianism.com/http://www.utilitarianism.com/history-ethics.pdf">A Short History of Ethics (Alistair MacIntyre, pdf)
+# <a href="https://www.utilitarianism.com/http://www.utilitarianism.com/happiness-philosophers.pdf">The Happiness Philosophers (pdf)
+# <a href="https://www.youtube.com/watch?v=uvmz5E75ZIA">Utilitarianism (video introduction)
+# <a href="https://www.utilitarianism.com/http://www.utilitarismus.de/">Utilitarismus
+# <a href="https://www.utilitarianism.com/http://www.utilitarian.net/singer/by/19990905.htm">The Singer Solution to World Poverty
+# <a href="https://www.utilitarianism.com/view-universe.pdf">The Point of View of the Universe (pdf)
+# <a href="https://www.utilitarianism.com/encyclopedia.pdf">Encyclopedia of Science, Technology and Ethics (Carl Mitcham, ed., pdf)
+# <a href="https://en.wikipedia.org/wiki/Utility_monster">Utility Monster
+# <a href="https://www.utilitarianism.com/http://www.antihurt.com/">Modified Negative Utilitarianism (Dan Geinster)
+# <a href="https://www.utilitarianism.com/benatar/index.html"Better Never to Have Been: The Harm of Coming into Existence
+# <a href="https://en.wikipedia.org/wiki/List_of_utilitarians">Utilitarian Philosophers (Wikipedia)
+# <a href="https://www.utilitarianism.com/http://www.socrethics.com/Folder2/Justice.htm">Negative Utilitarian Justice (Socrethics)
+# <a href="https://www.utilitarianism.com/utilitarianism-enlightenment.pdf">Utiltarianism in the Age of Enlightenment (pdf)
+# <a href="https://www.utilitarianism.com/justice.pdf">Justice, Political Liberalism and Utilitarianism (pdf)
+# <a href="https://www.utilitarianism.com/perspectives.pdf">Perspectives on Peter Singer (pdf)
+# <a href="https://www.utilitarianism.com/utilitarian-moraljudgments.pdf">'Damage to the prefrontal cortex increases utilitarian moral judgements' (Koenigs et al; pdf)
+# <a href="https://www.utilitarianism.com/hedonism-utilitarianism.pdf">Hedonism, Utilitarianism and Consumer Behavior (Daniele Scarpi, pdf)
+# <a href="https://www.utilitarianism.com/hibberd/index.html"To what extent is Utilitarianism compatible with Christian theology? (Paul Hibberd)
+# <a href="https://www.utilitarianism.com/http://blog.practicalethics.ox.ac.uk/2020/05/pandemic-ethics-utilitarianism-and-the-lockdown/">Pandemic Ethics: Utilitarianism and Lockdown
+# <a href="https://www.wireheading.com/brain-stimulation.html">Utopian Brain Stimulation? <BR>
+# <a href="https://www.wireheading.com/riley-day/index.html">Riley-Day syndrome <br>
+# <a href="https://www.utilitarianism.com/rnsmart-negutil.html"R.N. Smart's reply to Popper
+# <a href="https://en.wikipedia.org/wiki/Wild_animal_suffering">Wild Animal Suffering
+# <a href="https://www.paradise-engineering.com/misc/">Portrait of an Ideal World (H.L. Mencken)
+# <a href="https://www.paradise-engineering.com/happiness/">Operationalising Gross National Happiness
+# <a href="https://www.utilitarianism.com/happiness/economics.html"Economics and Happiness
+# <a href="https://www.utilitarianism.com/happiness/index.html">Happiness (Richard Layard)
+# <a href="https://archive.ieet.org/archive/IEET-02-BioHappiness.pdf">In Praise of Bio-Happiness (Mark Walker)
+# <a href="https://www.utilitarianism.com/http://www.diametros.iphils.uj.edu.pl/?l=1&p=lin2&m=105&a=177&c=6">Internetowy Serwis Filozoficzny: Utylitaryzm (Polish)
+# <a href="https://www.utilitarianism.com/brazilian-portuguese/index.html">O Argumento da Alfinetada (Brazilian Portuguese)
+# <a href="https://www.utilitarianism.com/brazilian-portuguese/bioetica.html">Bioética Utilitarista (Brazilian Portuguese)
+# <a href="https://sentience-research.org/el-imperativo-de-abolir-el-sufrimiento-una-entrevista-con-david-pearce/">El Imperativo De Abolir El Sufrimiento (Spanish)
+# <a href="https://philpapers.org/archive/ANONCO">Nietzsche's Critique of Utilitarianism
+# <a href="https://en.wikipedia.org/wiki/Torbjörn_Tännsjö">Torbjörn Tännsjö
+# <a href="https://www.utilitarianism.com/elon-musk.html"Elon Musk / Neuralink
+# <a href="https://www.wireheading.com/pleasure.html">The Pleasure Seekers <BR>
+# <a href="https://www.utilitarianism.com/utilitarian-memes/index.html"Utilitarian Memes for Utopian Teens (illustrated)
+# <a href="https://www.utilitarianism.com/mo-tzu.html">Precursors of Utilitarianism
+# <a href="https://www.hedweb.com/jon-martin/index.html">Happiness Becomes You (Jon Martin)
+# <a href="https://www.quora.com/How-would-you-argue-that-negative-utilitarianism-is-ethically-correct">Negative Utilitarianism
+# <a href="https://www.hedweb.com/hedethic/end-suffering.html">The End of Suffering (Katherine Power)
+# <a href="https://www.reproductive-revolution.com/index.html">The Reproductive Revolution <br>
+# <a href="https://www.abolitionist.com/multiverse.html">Quantum Ethics?
+# <a href="https://www.abolitionist.com/reprogramming/index.html">Reprogramming Predators
+# <a href="https://www.repugnant-conclusion.com/">Parfit's Repugnant Conclusion
+# <a href="https://www.bltc.com/buddhism-suffering.html">Buddhism and Utilitarianism
+# <a href="https://www.utilitarianism.com/biotech.html"Utilitarian Bioethics
+# <a href="https://www.gene-drives.com/">The Post-CRISPR Biosphere
+# <a href="https://www.general-anaesthesia.com/">Velpeau's Chimera: Utopian Surgery?
+# <a href="https://www.superhappiness.com/index.html">Superhappiness?
+# <a href="https://www.mdma.net/">MDMA: Utopian Pharmacology
+# <a href="https://www.wireheading.com/">Wirehead Hedonism <br>
+# <a href="https://www.paradise-engineering.com/">Paradise-Engineering
+# <a href="https://www.hedweb.com/hedab.htm">The Hedonistic Imperative
+# <a href="https://www.huxley.net/">Critique of Aldous Huxley's Brave New World
+# <a href="https://www.abolitionist.com/">The Abolitionist Project
+# <a href="https://www.utilitarianism.com/pinprick-argument.html"Negative Utilitarianism and the Pinprick Argument
+# <a href="https://www.biointelligence-explosion.com/">The Biointelligence Explosion
+# <a href="https://www.hedweb.com/social-media/pre2014.html">Negative Utilitarianism and Utilitronium Shockwaves

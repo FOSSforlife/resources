@@ -3,6 +3,7 @@
 <% const subredditOrHostname = (url) => useSubredditIfExists(url, getHostname(url)) %>
 <% const subredditText = (url) => getHostname(url) === 'reddit.com' ? ' subreddit-text' : '' %>
 <h5 class="section"><%= sectionTitle %></h5>
+<%= description || '' %>
 <div class="collection">
   <% for(const item of items) { %>
   <% if(item.url) { %>

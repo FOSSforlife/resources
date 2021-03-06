@@ -1,7 +1,7 @@
 <% for(const [sectionTitle, section] of Object.entries(sections)) { %>
 <% if(Array.isArray(section)) { %>
-<%- include('./links-section', {sectionTitle, items: section}) %>
+<%- include('./links-section', {sectionTitle, items: section, description: sectionDescriptions ? sectionDescriptions[sectionTitle] : ''}) %>
 <% } else {%>
-<%- include('./links-section-subsections', {sectionTitle: sectionTitle, subSections: section}) %>
+<%- include('./links-section-subsections', {sectionTitle: sectionTitle, subSections: section, description: sectionDescriptions ? sectionDescriptions[sectionTitle] : ''}) %>
 <% }%>
 <% }%>

@@ -22,7 +22,7 @@
       </ul>
       <div id="links">
         <% if(entryData.sections) { %>
-        <%- include('../partials/links', { sections: entryData.sections }); %>
+        <%- include('../partials/links', { sections: entryData.sections, sectionDescriptions: entryData.sectionDescriptions }); %>
         <% } %>
       </div>
       <div id="wikipedia">
