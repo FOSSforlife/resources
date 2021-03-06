@@ -1,0 +1,230 @@
+config:
+  tags:
+    - ethics
+
+sectionDescriptions:
+  Abstract: |
+    By David Pearce
+
+    This manifesto outlines a strategy to eradicate suffering in all sentient life. The abolitionist project is ambitious, implausible, but technically feasible. It is defended here on ethical utilitarian grounds. Genetic engineering and nanotechnology allow Homo sapiens to discard the legacy-wetware of our evolutionary past. Our post-human successors will rewrite the vertebrate genome, redesign the global ecosystem, and abolish suffering throughout the living world.
+    Why does suffering exist? The metabolic pathways of pain and malaise evolved only because they served the inclusive fitness of our genes in the ancestral environment. Their ugliness can be replaced by a new motivational system based entirely on gradients of well-being. Life-long happiness of an intensity now physiologically unimaginable can become the heritable norm of mental health. A sketch is offered of when, and why, this major evolutionary transition in the history of life is likely to occur. Possible objections, both practical and moral, are raised and then rebutted.
+
+    Contemporary images of opiate-addled junkies, and the lever-pressing frenzies of intra-cranially self-stimulating rats, are deceptive. Such stereotypes stigmatise, and falsely discredit, the only remedy for the world's horrors and everyday discontents that is biologically realistic. For it is misleading to contrast social and intellectual development with perpetual happiness. There need be no such trade-off. Thus states of "dopamine-overdrive" can actually enhance exploratory and goal-directed activity. Hyper-dopaminergic states can also increase the range and diversity of actions an organism finds rewarding. Our descendants may live in a civilisation of serenely well-motivated "high-achievers", animated by gradients of bliss. Their productivity may far eclipse our own.
+
+    Two hundred years ago, before the development of potent synthetic pain-killers or surgical anaesthetics, the notion that "physical" pain could be banished from most people's lives would have seemed no less bizarre. Most of us in the developed world now take its daily absence for granted. The prospect that what we describe as "mental" pain, too, could one day be superseded is equally counter-intuitive. The technical option of its abolition turns its deliberate retention into an issue of political policy and ethical choice.
+
+sections:
+  Abstract:
+  Introduction:
+    - name: 0.1 The Naturalisation of Heaven
+      url: https://www.hedweb.com/hedethic/hedonist.htm#naturalisation
+    - name: 0.2 Saving Vehicles With Bad Drivers
+      url: https://www.hedweb.com/hedethic/hedonist.htm#saving
+    - name: 0.3 Humans Are Not Rats
+      url: https://www.hedweb.com/hedethic/hedonist.htm#humans
+    - name: 0.4 Life In Dopaminergic Overdrive
+      url: https://www.hedweb.com/hedethic/hedonist.htm#life
+  How?:
+    - name: 1.0 Sabotage At The Mill
+      url: https://www.hedweb.com/hedethic/hedon1.htm#sabotage
+    - name: 1.1 The Biological Program
+      url: https://www.hedweb.com/hedethic/hedon1.htm#biological
+    - name: 1.2 Pumping Up The Volume
+      url: https://www.hedweb.com/hedethic/hedon1.htm#pumping
+    - name: 1.3 The Civilising Neurotransmitter
+      url: https://www.hedweb.com/hedethic/hedon1.htm#civilising
+    - name: 1.4 The Cardinal Importance Of Delayed Gratification
+      url: https://www.hedweb.com/hedethic/hedon1.htm#cardinal
+    - name: 1.5 The Molecular Genetics Of Paradise
+      url: https://www.hedweb.com/hedethic/hedon1.htm#molecular
+    - name: 1.6 The Re-encephalisation Of Emotion
+      url: https://www.hedweb.com/hedethic/hedon1.htm#re-encephalisation
+    - name: 1.7 How Could Anything Be So Good?
+      url: https://www.hedweb.com/hedethic/hedon1.htm#could
+    - name: 1.8 All We Need Is Love?
+      url: https://www.hedweb.com/hedethic/hedon1.htm#need
+    - name: 1.9 The Taste Of Depravity
+      url: https://www.hedweb.com/hedethic/hedon1.htm#taste
+    - name: 1.10 On The Misguided Romanticisation Of Feline Psychopaths
+      url: https://www.hedweb.com/hedethic/hedon1.htm#feline
+    - name: 1.11 The Last Twisted Molecule On Earth?
+      url: https://www.hedweb.com/hedethic/hedon1.htm#last
+    - name: 1.12 The Persistence Of Hard-Core Porn
+      url: https://www.hedweb.com/hedethic/hedon1.htm#persistence
+    - name: 1.13 The Growing Pleasures Of Homunculi
+      url: https://www.hedweb.com/hedethic/hedon1.htm#growing
+    - name: 1.14 Post-Perceptual Consciousness?
+      url: https://www.hedweb.com/hedethic/hedon1.htm#post-perceptual
+  Why?:
+    - name: 2.0 The Psychology Of Armchair Hedonism
+      url: https://www.hedweb.com/hedethic/hedon2.htm#psychology
+    - name: 2.1 How To Contemplate An Introspective Void
+      url: https://www.hedweb.com/hedethic/hedon2.htm#contemplate
+    - name: 2.2 The Importance Of Banality
+      url: https://www.hedweb.com/hedethic/hedon2.htm#importance
+    - name: 2.3 Vacuous Desires
+      url: https://www.hedweb.com/hedethic/hedon2.htm#vacuous
+    - name: 2.4 A Dirty Window On The Soul
+      url: https://www.hedweb.com/hedethic/hedon2.htm#dirty
+    - name: 2.5 Let's Get Rational
+      url: https://www.hedweb.com/hedethic/hedon2.htm#rational
+    - name: 2.6 The Morality Of Happiness
+      url: https://www.hedweb.com/hedethic/hedon2.htm#morality
+    - name: 2.7 Why Be Negative?
+      url: https://www.hedweb.com/hedethic/hedon2.htm#negative
+    - name: 2.8 The Moral Panacea
+      url: https://www.hedweb.com/hedethic/hedon2.htm#moral
+    - name: 2.9 The Significance Of An Empirical Correlation
+      url: https://www.hedweb.com/hedethic/hedon2.htm#significance
+    - name: 2.10 A Tough-Minded Scientist Replies
+      url: https://www.hedweb.com/hedethic/hedon2.htm#tough-minded
+    - name: 2.11 The Selection Of Mysterious Reds
+      url: https://www.hedweb.com/hedethic/hedon2.htm#selection
+    - name: 2.12 The Formal Successes Of Scientific Triumphalism
+      url: https://www.hedweb.com/hedethic/hedon2.htm#formal
+    - name: 2.13 The Naturalisation Of Value
+      url: https://www.hedweb.com/hedethic/hedon2.htm#value
+    - name: 2.14 Four Deadly Objections?
+      url: https://www.hedweb.com/hedethic/hedon2.htm#four
+    - name: 2.15 Alone Amongst The Zombies
+      url: https://www.hedweb.com/hedethic/hedon2.htm#alone
+    - name: 2.16 The Perils Of Idle Scepticism
+      url: https://www.hedweb.com/hedethic/hedon2.htm#perils
+    - name: 2.17 The Price Of Inner Demons
+      url: https://www.hedweb.com/hedethic/hedon2.htm#price
+    - name: 2.18 Can We All Be Really Good?
+      url: https://www.hedweb.com/hedethic/hedon2.htm#really
+    - name: 2.19 Equivocal Values
+      url: https://www.hedweb.com/hedethic/hedon2.htm#equivocal
+    - name: '2.20 Good Vibrations: The Value Of String'
+      url: https://www.hedweb.com/hedethic/hedon2.htm#good
+  When?:
+    - name: 3.0 Our Emotional Future
+      url: https://www.hedweb.com/hedethic/hedon3.htm#emotional
+    - name: 3.1 Hedonism After The War
+      url: https://www.hedweb.com/hedethic/hedon3.htm#hedonism
+    - name: 3.2 On Why We Need Better Drug Pushers
+      url: https://www.hedweb.com/hedethic/hedon3.htm#bigger
+    - name: 3.3 Good Code Gets Better
+      url: https://www.hedweb.com/hedethic/hedon3.htm#code
+    - name: 3.4 The Death-Spasms Of Peripheralism
+      url: https://www.hedweb.com/hedethic/hedon3.htm#death-spasms
+    - name: 3.5 And Yet It Still Grinds
+      url: https://www.hedweb.com/hedethic/hedon3.htm#grinds
+    - name: 3.6 The Technology Of Shop-Soiled Utopias
+      url: https://www.hedweb.com/hedethic/hedon3.htm#technology
+    - name: 3.7 Living In The Real World
+      url: https://www.hedweb.com/hedethic/hedon3.htm#living
+  Objections:
+    - name: 4.0 ...impossible because happiness depends on contrast with sadness...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#incoherent
+    - name: 4.1 ...brain too complex...negative feedback mechanisms...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#impracticable
+    - name: 4.2 ...we'd just die out...gruesome fate of intra-cranially self-stimulating rats...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#die
+    - name: 4.3 ...manifesto flawed by reductionist approach to the human soul...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#reductionist
+    - name: 4.4 ...unanticipated side-effects...thalidomide...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#thalidomide
+    - name: 4.5 ...would need widespread animal-testing...inconsistent with the manifesto's animal welfarism...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#radical
+    - name: 4.6 ...unnatural...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#unnatural
+    - name: 4.7 ...perpetual happiness is boring...need for variety...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#boring
+    - name: 4.8 ...happiness should be rationally justifiable...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#justifiable
+    - name: 4.9 ...to be forced into chemically-driven happiness is wrong...false happiness...freedom to be unhappy is important...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#forced
+    - name: 4.10 ...would turn us into junkies...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#junkies
+    - name: 4.11 ...one can sometimes like being sad...too precious to lose...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#sad
+    - name: 4.12 ...would eliminate personal development...lead to stasis...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#stasis
+    - name: 4.13 ...why not just get high...?
+      url: https://www.hedweb.com/hedethic/hedon4.htm#orgiastic
+    - name: 4.14 ...no more Newtons, Picassos, Beethovens...end of mankind's intellectual progress...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#beethoven
+    - name: 4.15 ...makes mockery of current values and life-projects...too absurd to warrant serious debate...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#mockery
+    - name: 4.16 ...would leave us helpless... manipulable by ruling elites...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#elites
+    - name: 4.17 ...sheer escapism...the importance of staying in touch with reality...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#escapist
+    - name: 4.18 ...wouldn't be me...one is defined by one's sorrows as much as joys...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#sorrows
+    - name: 4.19 ...selfish distraction from what matters...helping the poor in the Third World comes first...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#third
+    - name: 4.20 ...affront to human dignity...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#dignity
+    - name: 4.21 ...track-record of utopianism is disastrous...terrible crimes committed on assumption the end justifies the means...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#utopianism
+    - name: 4.22 ...would undermine the basis of all human relationships...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#relationships
+    - name: 4.23 ...might lead to (post-)humanity getting irreversibly stuck...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#stuck
+    - name: 4.24 ... emphasis on mood-lifting drugs is disproportionate...easy to misinterpret...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#disproportionate
+    - name: 4.25 ...abolitionist project presupposes a utilitarian ethic...HI collapses if utilitarianism is rejected...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#benthamite
+    - name: 4.26 ...will never be a Post-Darwinian Transition... there will always be selection pressure...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#selection
+    - name: 4.27 ...paradise-engineering is impossible...not evolutionarily stable...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#stable
+    - name: 4.28 ...contradiction...abolitionism can't be reconciled with an absence of compulsion...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#contradiction
+    - name: 4.29 ...why invoke nanotechnology; isn't genetic engineering enough...?
+      url: https://www.hedweb.com/hedethic/hedon4.htm#nanotechnology
+    - name: 4.30 ..."pushy" parents will choose genotypes for children destined to be smart, driven and successful rather than happy...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#biotechnology
+    - name: 4.31 ...persistence of "natural" reproducers with Darwinian genotypes means that suffering won't be abolished...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#natural
+    - name: 4.32 ...cosmic HI? Some pitfalls...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#cosmic
+    - name: 4.33 ...why stress gradients of well-being? Wouldn't permanent maximum bliss be ethically better...?
+      url: https://www.hedweb.com/hedethic/hedon4.htm#gradients
+    - name: 4.34 ...why the headlong rush? Let's wait until we have the wisdom to understand the implications of what we're doing...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#headlong
+    - name: 4.35 ...the Simulation Argument suggests suffering can never be abolished...
+      url: https://www.hedweb.com/hedethic/hedon4.htm#simulation
+  Conclusion:
+    - name: 5.0 Puppet-Masters Without Strings
+      url: https://www.hedweb.com/hedethic/hedon5.htm#puppet-masters
+    - name: 5.1 Could Life Really Have A Happy Ending?
+      url: https://www.hedweb.com/hedethic/hedon5.htm#ending
+  Other Links:
+    - name: HedWeb
+      url: https://www.hedweb.com/confile.htm
+    - name: Talks (2015)
+      url: https://www.hedweb.com/transhumanism/talks.html
+    - name: DP Interview
+      url: https://www.hedweb.com/transhumanism/index.html
+    - name: Future Opioids
+      url: 'https://www.opioids.com/'
+    - name: Superhappiness
+      url: 'https://www.superhappiness.com/'
+    - name: Utopian Surgery
+      url: 'https://www.general-anaesthesia.com/'
+    - name: Social Media (2021)
+      url: https://www.hedweb.com/social-media/index.html
+    - name: Wirehead Hedonism
+      url: 'https://www.wireheading.com/'
+    - name: The Good Drug Guide
+      url: 'https://www.biopsychiatry.com/'
+    - name: Paradise Engineering
+      url: 'https://www.paradise-engineering.com/'
+    - name: Utopian Neuroscience
+      url: https://superwell.html
+    - name: Quora Answers (2021)
+      url: 'https://www.hedweb.com/quora/index.html'
+    - name: The Abolitionist Project
+      url: 'https://www.abolitionist.com/index.html'
+    - name: Superintelligence (2013)
+      url: 'https://www.biointelligence-explosion.com/parable.html'
+    - name: 'MDMA: Utopian Pharmacology'
+      url: 'https://www.mdma.net/index.html'
+    - name: The Post-CRISPR Biosphere (2016)
+      url: 'https://www.gene-drives.com/'
+    - name: Critique of Huxley's Brave New World
+      url: 'https://www.huxley.net/'

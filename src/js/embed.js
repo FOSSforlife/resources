@@ -1,8 +1,12 @@
 async function fetchWikiEmbed(elementId, embedData) {
   console.log(embedData);
   const { entryName } = embedData;
+  const pageName = entryName
+    .split(' ')
+    .map((s) => s.toLowerCase())
+    .join('_');
   const text = await (
-    await fetch(`https://en.wikipedia.org/api/rest_v1/page/html/${entryName}`)
+    await fetch(`https://en.wikipedia.org/api/rest_v1/page/html/${pageName}`)
   ).text();
   const start = text.indexOf('<body');
   const end = text.indexOf('</body>');

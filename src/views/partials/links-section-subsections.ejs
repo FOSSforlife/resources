@@ -3,14 +3,14 @@
 <% const subredditOrHostname = (url) => useSubredditIfExists(url, getHostname(url)) %>
 <% const subredditText = (url) => getHostname(url) === 'reddit.com' ? ' subreddit-text' : '' %>
 <h5 class="section"><%= sectionTitle %></h5>
-<% for(const [subSectionTitle, items] of Object.entries(subSections)) { %>
+<%- description || '' %>
+<% for(const [subSectionTitle, items] of Object.entries(subSections || [])) { %>
 <div class="collection with-header">
 
   <div href="#!" class="collection-header">
     <h6><%= subSectionTitle %></h6>
   </div>
 
-  <%= description || '' %>
   <% for(const item of items) { %>
   <% if(item.url) { %>
   <a href="<%= item.url %>" class="collection-item<%= subredditText(item.url) %>">

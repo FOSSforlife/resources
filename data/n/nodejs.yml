@@ -1,0 +1,24 @@
+config:
+  title: Node.js
+  aliases:
+    - node.js
+  tags:
+    - computer science
+
+sections:
+  Packages:
+    - name: NPM
+      url: https://npmjs.com
+    - name: NPMS.io (alternate NPM search)
+      url: https://npms.io
+    - name: NPM Trends
+      url: https://npmtrends.com
+    - name: BundlePhobia
+      url: https://bundlephobia.com
+    - name: Unpkg (use packages in browser)
+      url: https://unpkg.com/
+    - name: RunKit
+      url: https://runkit.com/home
+  Guides:
+    - name: Node.js Best Practices
+      url: https://github.com/goldbergyoni/nodebestpractices

@@ -1,7 +1,8 @@
-<% for(const [sectionTitle, section] of Object.entries(sections)) { %>
+<% for(let [sectionTitle, section] of Object.entries(sections || [])) { %>
+<% section = section === null ? [] : section; %>
 <% if(Array.isArray(section)) { %>
-<%- include('./links-section', {sectionTitle, items: section, description: sectionDescriptions ? sectionDescriptions[sectionTitle] : ''}) %>
+<%- include('./links-section', {sectionTitle, items: section, description: sectionDescriptions ? md.render(sectionDescriptions[sectionTitle] || '') : ''}) %>
 <% } else {%>
-<%- include('./links-section-subsections', {sectionTitle: sectionTitle, subSections: section, description: sectionDescriptions ? sectionDescriptions[sectionTitle] : ''}) %>
+<%- include('./links-section-subsections', {sectionTitle: sectionTitle, subSections: section, description: sectionDescriptions ? md.render(sectionDescriptions[sectionTitle]) : ''}) %>
 <% }%>
 <% }%>

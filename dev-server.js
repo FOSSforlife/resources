@@ -3,6 +3,7 @@ const path = require('path');
 const { paramCase } = require('change-case');
 const { titleCase } = require('title-case');
 const yaml = require('js-yaml');
+const md = require('markdown-it')();
 const express = require('express');
 const app = express();
 
@@ -26,7 +27,7 @@ app.get('/:entryName', (req, res) => {
   const entryFile = `data/${firstLetter}/${paramCase(entryName)}.yml`;
   const entryData = yaml.load(fse.readFileSync(entryFile));
 
-  res.render('pages/entry', { entryData, entryName: titleCase(entryName) });
+  res.render('pages/entry', { entryData, entryName: titleCase(entryName), md });
 });
 
 app.listen(8080);
