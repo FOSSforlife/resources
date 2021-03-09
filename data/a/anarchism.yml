@@ -1,6 +1,6 @@
 config:
   embeds:
-    - name: Reddit
+    - type: reddit
       url: https://www.reddit.com/r/Anarchism/wiki/primer
   tags:
     - political ideologies

@@ -59,11 +59,8 @@ h6 {
   }
 }
 
-.wikipedia {
-  [data-mw-section-id='0'] table {
-    display: none;
-  }
-
+.wikipedia,
+.reddit {
   h2 {
     font-size: 2.2rem;
   }
@@ -78,6 +75,12 @@ h6 {
   }
   h6 {
     font-size: 1.05rem;
+  }
+}
+
+.wikipedia {
+  [data-mw-section-id='0'] table {
+    display: none;
   }
 }
 

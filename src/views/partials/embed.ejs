@@ -1,6 +1,8 @@
-<div id="wikipedia"></div>
+<div id="<%= elementId %>"></div>
 <script>
-  // id
-  // embedData
-  fetchWikiEmbed('wikipedia', <%- JSON.stringify(embedData) %> );
+  <% if(embedData.type === 'wikipedia') { %>
+    fetchWikiEmbed('<%= elementId %>', <%- JSON.stringify(embedData) %> );
+  <% } else if(embedData.type === 'reddit') { %>
+    fetchRedditEmbed('<%= elementId %>', <%- JSON.stringify(embedData) %> );
+  <% } %>
 </script>
