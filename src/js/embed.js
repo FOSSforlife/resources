@@ -1,3 +1,4 @@
+// Old Wikipedia API: https://en.wikipedia.org/w/api.php?action=parse&page=Pet_door&prop=text&formatversion=2&format=json
 async function fetchWikiEmbed(elementId, embedData) {
   console.log(embedData);
   const { entryName } = embedData;
@@ -24,5 +25,3 @@ async function fetchWikiEmbed(elementId, embedData) {
     );
   }
 }
-
-// Old Wikipedia API: https://en.wikipedia.org/w/api.php?action=parse&page=Pet_door&prop=text&formatversion=2&format=json

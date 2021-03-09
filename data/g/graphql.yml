@@ -1,0 +1,121 @@
+config:
+  title: GraphQL
+
+sections:
+  Useful Links:
+    - name: GraphQL.org - List of Libraries
+      url: https://graphql.org/code/
+    - name: GraphQL.org - Guide
+      url: https://graphql.org/learn/
+    - name: Awesome GraphQL
+      url: https://github.com/chentsulin/awesome-graphql
+    - name: GraphQL Code Generator
+      url: https://graphql.org/learn/
+    - name: HowToGraphQL.com
+      url: https://www.howtographql.com
+    - name: Apollo Docs
+      url: https://www.apollographql.com/docs/
+    - name: NestJS GraphQL
+      url: https://docs.nestjs.com/graphql/quick-start
+    - name: TypeGraphQL
+      url: https://typegraphql.com
+    - name: GraphQL Nexus
+      url: https://nexusjs.org
+  'Book: Production Ready GraphQL':
+    Links:
+      - name: Book Website
+        url: https://book.productionreadygraphql.com/
+    An Introduction to GraphQL:
+      - name: One-Size-Fits-All
+      - name: Let’s Go Back in Time
+      - name: Enter GraphQL
+      - name: Type System
+      - name: Introspection
+      - name: Summary
+    GraphQL Schema Design:
+      - name: What Makes an API Great?
+      - name: Design First
+      - name: Client First
+      - name: Naming
+      - name: Descriptions
+      - name: Use the Schema, Luke!
+      - name: Expressive Schemas
+      - name: Specific or Generic
+      - name: The Relay Specification
+      - name: Lists & Pagination
+      - name: Sharing Types
+      - name: Global Identification
+      - name: Nullability
+      - name: Abstract Types
+      - name: Designing for Static Queries
+      - name: Mutations
+      - name: Fine-Grained or Coarse-Grained
+      - name: Errors
+      - name: Schema Organization
+      - name: Asynchronous Behavior
+      - name: Data-Driven Schema vs Use-Case-Driven Schema
+      - name: Summary
+    Implementing GraphQL Servers:
+      - name: GraphQL Server Basics
+      - name: Code First vs Schema First
+      - name: Generating SDL Artifacts
+      - name: Resolver Design
+      - name: Schema Metadata
+      - name: Multiple Schemas
+      - name: Modular Schemas
+      - name: Testing
+      - name: Summary
+    Security:
+      - name: Rate Limiting
+      - name: Blocking Abusive Queries
+      - name: Timeouts
+      - name: Authentication
+      - name: Authorization
+      - name: Blocking Introspection
+      - name: Persisted Queries
+      - name: Summary
+    Performance & Monitoring:
+      - name: Monitoring
+      - name: The N+1 Problem and the Dataloader
+      - name: Caching
+      - name: Compiled Queries
+      - name: Summary
+    Tooling:
+      - name: Linting
+      - name: Analytics
+      - name: Summary
+    Workflow:
+      - name: Design
+      - name: Review
+      - name: Development
+      - name: Publish
+      - name: Analyze
+      - name: Ship
+    Public GraphQL APIs:
+      - name: Is GraphQL a Good Choice for Public APIs
+      - name: Lack of Conventions
+      - name: With Great Power comes Great Responsibility
+      - name: Summary
+    GraphQL in a Distributed Architecture:
+      - name: GraphQL API Gateway
+      - name: GraphQL as a BFF
+      - name: Service Communication
+      - name: Summary
+    Versioning:
+      - name: API Versioning is Never Fun 170
+      - name: Versioning GraphQL is Possible
+      - name: Continuous Evolution
+      - name: Change Management
+      - name: Summary
+    Documenting GraphQL APIs:
+      - name: Documentation Generators
+      - name: The What, Not Just the How
+      - name: Workflows and Use Cases
+      - name: Example / Pre-Made Queries
+      - name: Changelogs
+      - name: Upcoming Changes
+      - name: Summary
+    Migrating From Other API Styles:
+      - name: Generators
+      - name: REST & GraphQL Alongside
+      - name: Summary

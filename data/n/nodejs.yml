@@ -5,6 +5,13 @@ config:
   tags:
     - computer science
 
+imports:
+  Books:
+    type: github-readme # for other files, we will use 'github' type and provide url
+    source: sindresorhus/awesome-nodejs
+    sourceSection: Books
+    # sourceSectionIndex: 0 (if there were multiple "books")
+
 sections:
   Packages:
     - name: NPM
@@ -22,3 +29,4 @@ sections:
   Guides:
     - name: Node.js Best Practices
       url: https://github.com/goldbergyoni/nodebestpractices
+  Books:
