@@ -1,0 +1,732 @@
+config:
+  title: SQL
+  redirects:
+    - postgres
+    - postgresql
+  embeds:
+    - type: reddit
+      url: https://www.reddit.com/r/SQL/wiki/index
+
+sections:
+  Resources:
+    - name: PostgreSQL Online
+      url: https://extendsclass.com/postgresql-online.html
+  Postgres Exercises:
+    - name: Simple SQL Queries
+      url: https://pgexercises.com/questions/basic/
+    - name: Joins and Subqueries
+      url: https://pgexercises.com/questions/joins/
+    - name: Modifying Data
+      url: https://pgexercises.com/questions/updates/
+    - name: Aggregation
+      url: https://pgexercises.com/questions/aggregates/
+    - name: Working with Timestamps
+      url: https://pgexercises.com/questions/date/
+    - name: String Operations
+      url: https://pgexercises.com/questions/string/
+    - name: Recursive Queries
+      url: https://pgexercises.com/questions/recursive/
+  "Udemy - SQL and PostgreSQL: The Complete Developer's Guide":
+    Links:
+      - name: Udemy Course Page
+        url: https://www.udemy.com/course/sql-and-postgresql/
+    'Simple - But Powerful - SQL Statements':
+      - name: 'Join Our Community!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/24615520
+      - name: 'What is PostgreSQL All About?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800007
+      - name: 'Database Design'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800061
+      - name: 'Database Terminology'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4971052
+      - name: 'Creating Tables'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800079
+      - name: 'Analyzing CREATE TABLE'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800153
+      - name: 'Inserting Data Into a Table'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800159
+      - name: 'Retrieving Data with Select'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800163
+      - name: 'Create, Insert, and Select!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4979832
+      - name: 'Calculated Columns'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800207
+      - name: 'Calculating Phone Revenue'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800219
+      - name: 'Using Calculated Columns'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4979802
+      - name: 'Exercise Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800223
+      - name: 'String Operators and Functions'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800243
+    'Filtering Records':
+      - name: 'Filtering Rows with "Where"'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800251
+      - name: 'More on the "Where" Keyword'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800273
+      - name: 'Compound "Where" Clauses'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800275
+      - name: 'A "Where" Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800285
+      - name: 'Practicing Where Statements'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4981248
+      - name: 'A "Where" Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800289
+      - name: '"Where" With Lists'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800309
+      - name: "A More Challenging 'Where'"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4981256
+      - name: 'A "Where" With Lists Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800299
+      - name: 'Calculations in "Where" Clauses'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800473
+      - name: 'Trying Calculations in Where Clauses'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4981266
+      - name: 'Solving Calculations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800483
+      - name: 'Updating Rows'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800491
+      - name: 'Deleting Rows'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800505
+      - name: 'Try Updating Records In a Table!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4981302
+      - name: 'A Solution for Updating Rows'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800513
+      - name: 'Practice Deleting Records'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4981308
+      - name: 'Solution for Deleting Rows'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22800523
+    'Working with Tables':
+      - name: 'The Plan Moving Forward'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801423
+      - name: 'Approaching Database Design'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801431
+      - name: "Let's Design Some Schema"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4981466
+      - name: 'One-to-Many and Many-to-One Relationships'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801445
+      - name: "A 'Has One' or 'Has Many'?"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4981442
+      - name: 'One-to-One and Many-to-Many Relationships'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801461
+      - name: 'Identifying One-to-One and Many-to-Many Relationships'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4982308
+      - name: 'Primary Keys and Foreign Keys'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801467
+      - name: 'Understanding Foreign Keys'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801475
+      - name: 'Foreign Keys; How Do They Work?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4982396
+      - name: "Auto-Generated ID's"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801489
+      - name: 'Creating Foreign Key Columns'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801513
+      - name: 'Running Queries on Associated Data'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801523
+      - name: 'Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801545
+      - name: 'Creating and Using Foreign Keys'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4982472
+      - name: 'Foreign Key Creation Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801571
+      - name: 'Foreign Key Constraints Around Insertion'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801585
+      - name: 'Constraints Around Deletion'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801599
+      - name: "Commands You\u2019ll Need for the Next Video"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22805147
+      - name: 'Testing Deletion Constraints'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801609
+      - name: 'Setting Foreign Keys to Null on Delete'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801615
+      - name: 'What Happens On Delete?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/5050931
+      - name: 'Adding Some Complexity'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22807373
+    'Relating Records with Joins':
+      - name: 'Adding Some Data'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22805231
+      - name: 'Queries with Joins and Aggregations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801629
+      - name: 'Joining Data from Different Tables'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801631
+      - name: 'Another Quick Join'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801645
+      - name: 'Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801649
+      - name: 'Practice Joining Data'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4985496
+      - name: 'A Joinful Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801653
+      - name: 'Alternate Forms of Syntax'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801661
+      - name: 'Missing Data in Joins'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801665
+      - name: "Why Wasn't It Included"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801669
+      - name: 'Four Kinds of Joins'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801677
+      - name: 'Each Join in Practice'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801679
+      - name: 'Does Order Matter?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801681
+      - name: 'Test Your Joining Knowledge'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4986600
+      - name: 'Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801683
+      - name: 'Joins, Joins, Join!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4986622
+      - name: 'Two Possible Solutions'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801687
+      - name: 'Where with Join'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801693
+      - name: 'Three Way Joins'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801699
+      - name: 'A Bit of Practice'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801703
+      - name: 'Three Way Exercise'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4986668
+      - name: 'Exercise Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801707
+    'Aggregation of Records':
+      - name: 'Aggregating and Grouping'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801717
+      - name: 'Picturing Group By'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801721
+      - name: 'Selecting Columns After Grouping'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4987106
+      - name: 'Aggregate Functions'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801729
+      - name: 'Combining Group By and Aggregates'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801733
+      - name: 'A Gotcha with Count'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801737
+      - name: 'Visualizing More Grouping'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801753
+      - name: 'Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801783
+      - name: 'Practice For Grouping and Aggregating'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4987174
+      - name: 'Grouping Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801787
+      - name: 'Adding a Layer of Difficulty'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801789
+      - name: 'Grouping With a Join!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4987192
+      - name: 'Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801795
+      - name: 'Filtering Groups with Having'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801799
+      - name: 'Having In Action'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801805
+      - name: 'More on Having!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801807
+      - name: 'A Having Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801815
+      - name: 'Practice Yourself Some Having'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4988372
+      - name: 'A Quick Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801821
+    'Working with Large Datasets':
+      - name: 'A New Dataset'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/21629748
+      - name: 'Investigating This Dataset'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801843
+      - name: 'Some Group By Practice'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801847
+      - name: 'Group By Review'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4988530
+      - name: 'Group By Review Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801855
+      - name: 'Remember Joins?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801865
+      - name: 'Inner Join Review'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4988576
+      - name: 'Of Course You Remember!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801881
+    'Sorting Records':
+      - name: 'The Basics of Sorting'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801907
+      - name: 'Two Variations on Sorting'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801917
+      - name: 'Offset and Limit'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801921
+      - name: 'Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801927
+      - name: 'Sorting, Offsetting, and Limiting'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4990536
+      - name: 'Exercise Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801931
+    'Unions and Intersections with Sets':
+      - name: 'Handling Sets with Union'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801943
+      - name: 'A Few Notes on Union'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801951
+      - name: 'Commonalities with Intersect'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801959
+      - name: 'Removing Commonalities with Except'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801965
+      - name: 'Union Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801975
+      - name: 'Merging Results with Union'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4992722
+      - name: 'Exercise Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22801985
+    'Assembling Queries with SubQueries':
+      - name: "What's a Subquery?"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802011
+      - name: 'Thinking About the Structure of Data'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802021
+      - name: "What's the Data Look Like?"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4988632
+      - name: 'Subqueries in a Select'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802029
+      - name: 'Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802031
+      - name: 'Embedding in Select'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4990438
+      - name: 'Select Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802039
+      - name: 'Subqueries in a From'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802047
+      - name: 'From Subqueries that Return a Value'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802069
+      - name: 'Example of a Subquery in a From'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802073
+      - name: 'Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802055
+      - name: "Subquery From's"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4990466
+      - name: 'Exercise Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802079
+      - name: 'Subqueries in a Join Clause'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802089
+      - name: 'More Useful - Subqueries with Where'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802101
+      - name: 'Data Structure with Where Subqueries'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802109
+      - name: 'Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802117
+      - name: "Subquery Where's"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4990450
+      - name: 'Exercise Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802119
+      - name: 'The Not In Operator with a List'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802129
+      - name: 'A New Where Operator'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802133
+      - name: 'Finally Some!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802135
+      - name: 'Is It A Valid Subquery?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4989702
+      - name: 'Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802141
+      - name: 'Practice Your Subqueries!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4989708
+      - name: 'A Quick Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802149
+      - name: 'Probably Too Much About Correlated Subqueries'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802157
+      - name: 'More on Correlated Subqueries'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802163
+      - name: 'A Select Without a From?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802167
+      - name: 'Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802171
+      - name: 'From-less Selects'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4990430
+      - name: 'Exercise Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802175
+    'Selecting Distinct Records':
+      - name: 'Selecting Distinct Values'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802225
+      - name: 'Exercise Overview'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802227
+      - name: 'Some Practice with Distinct'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4992766
+      - name: 'A Distinct Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802229
+    'Utility Operators, Keywords, and Functions':
+      - name: 'The Greatest Value in a List'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802231
+      - name: 'And the Least Value in a List!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802235
+      - name: 'The Case Keyword'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802237
+    'Local PostgreSQL Installation':
+      - name: 'PostgreSQL Installation on macOS'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802245
+      - name: 'PGAdmin Setup on macOS'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802249
+      - name: 'Postgres installation on Windows'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802255
+    'PostgreSQL Complex Datatypes':
+      - name: "What'd We Just Do?"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802257
+      - name: 'Data Types'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802259
+      - name: 'Fast Rules on Numeric Data Types'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802263
+      - name: 'More on Number Data Types'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802269
+      - name: 'Reminder on Character Types'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802273
+      - name: 'Boolean Data Types'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802281
+      - name: 'Times, Dates, and Timestamps'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802287
+      - name: 'Really Awesome Intervals'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802289
+    'Database-Side Validation and Constraints':
+      - name: 'Thinking About Validation'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802295
+      - name: 'Creating and Viewing Tables in PGAdmin'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802299
+      - name: 'Applying a Null Constraint'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802305
+      - name: 'Solving a Gotcha with Null Constraints'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802311
+      - name: 'Creating NULL Constraints'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4994138
+      - name: 'Default Column Values'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802313
+      - name: 'Applying a Unique Constraint to One column'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802317
+      - name: 'Multi-Column Uniqueness'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802319
+      - name: 'Is It Unique?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4994140
+      - name: 'Adding a Validation Check'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802323
+      - name: 'Checks Over Multiple Columns'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802325
+      - name: 'Does It Pass a Check?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4994146
+      - name: 'So Where Are We Applying Validation?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802331
+    'Database Structure Design Patterns':
+      - name: 'Approaching More Complicated Designs'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802333
+      - name: 'Using a SQL Design Tool'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802339
+      - name: 'A Config-based Schema Designer'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802341
+      - name: "Here's the Plan"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802343
+      - name: 'Rebuilding Some Schema'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802349
+    "How to Build a 'Like' System":
+      - name: 'Requirements of a Like System'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802355
+      - name: 'How Not to Design a Like System'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802357
+      - name: 'Designing a Like System'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802359
+      - name: 'Building a Similar System'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4996166
+      - name: 'Making a Reaction System Instead'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802365
+      - name: 'Polymorphic Associations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802373
+      - name: 'Polymorphic Association Alternative Implementation'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802381
+      - name: 'The Simplest Alternative'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802383
+      - name: 'Polymorphic Associations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/4996152
+      - name: 'So Which Approach?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802389
+    "How to Build a 'Mention' System":
+      - name: 'Additional Features Around Posts'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802391
+      - name: 'Adding Captions and Locations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802393
+      - name: 'Photo Mentions vs Caption Mentions'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802397
+      - name: 'Considerations on Photo Tags vs Caption Tags'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802401
+      - name: 'Update For Tags'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802407
+    "How to Build a 'Hashtag' System":
+      - name: 'Designing a Hashtag System'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802409
+      - name: 'Tables for Hashtags'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802415
+      - name: 'Including the Hashtag Table'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802419
+      - name: 'A Few More User Columns'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802429
+      - name: 'Why No Number of Followers or Posts?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802435
+    "How to Design a 'Follower' System":
+      - name: 'Designing a Follower System'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802447
+    'Implementing Database Design Patterns':
+      - name: 'Back to Postgres'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802551
+      - name: 'Creating Tables with Checks'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802555
+      - name: 'Posts Creation'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802557
+      - name: 'Comments Creation'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802561
+      - name: 'Likes Creation'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802563
+      - name: 'Photo Tags and Caption Tags'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802565
+      - name: 'Creating Hashtags, Hashtag Posts, and Followers'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802567
+    'Approaching and Writing Complex Queries':
+      - name: 'Quick Note About Adding Some Data'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22805609
+      - name: 'Adding Some Data'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802573
+      - name: 'Restoring from Scratch'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802577
+      - name: "Highest User ID's Exercise"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802581
+      - name: "Solution for User ID's"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802585
+      - name: 'Posts by a Particular User'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802613
+      - name: 'Solving for Posts by User'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802617
+      - name: 'Likes Per User'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802621
+      - name: 'Solution for Likes Per User'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802631
+    'Understanding the Internals of PostgreSQL':
+      - name: 'Thinking About Performance'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802639
+      - name: 'Where Does Postgres Store Data?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802643
+      - name: 'Heaps, Blocks, and Tuples'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802651
+      - name: 'Terminology Check'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/5011104
+      - name: 'Block Data Layout'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802655
+      - name: 'Heap File Layout'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802657
+    'A Look at Indexes for Performance':
+      - name: 'Full Table Scans'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802661
+      - name: "What's an Index"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802663
+      - name: 'How an Index Works'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802665
+      - name: 'Creating an Index'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802667
+      - name: 'Benchmarking Queries'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802673
+      - name: 'Downsides of Indexes'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802675
+      - name: 'Index Types'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802679
+      - name: 'Automatically Generated Indexes'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802681
+      - name: 'Using Automatically Created Indexes'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/5014388
+      - name: 'Behind the Scenes of Indexes'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802683
+    'Basic Query Tuning':
+      - name: 'The Query Processing Pipeline'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802691
+      - name: 'Explain and Explain Analyze'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802695
+      - name: 'Explain Vs Explain Analyze'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/5015156
+      - name: 'Solving an Explain Mystery'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802699
+    'Advanced Query Tuning':
+      - name: 'Developing an Intuitive Understanding of Cost'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802705
+      - name: 'Calculating Cost by Hand'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802707
+      - name: 'A Touch More on Costs'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802709
+      - name: 'Calculating Costs'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/5015736
+      - name: 'Startup vs Total Costs'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802713
+      - name: 'Costs Flow Up'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802715
+      - name: 'Use My Index!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802717
+    'Simple Common Table Expressions':
+      - name: 'Common Table Expressions'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802729
+      - name: 'A Quick Solution'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802733
+      - name: "So What's a CTE?"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802737
+    'Recursive Common Table Expressions':
+      - name: "Recursive CTE's"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802741
+      - name: "Recursive CTE's Step by Step"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802753
+      - name: "Why Use Recursive CTE's?"
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802759
+      - name: 'Writing the Query'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802761
+      - name: 'Walking Through Recursion'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802767
+    'Simplifying Queries with Views':
+      - name: 'Most Popular Users'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802781
+      - name: 'A Possible Solution for Merging Tables'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802789
+      - name: 'Creating a View'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802793
+      - name: 'When to Use a View?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802801
+      - name: 'Deleting and Changing Views'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802803
+    'Optimizing Queries with Materialized Views':
+      - name: 'Materialized Views'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802807
+      - name: 'Grouping by Week'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802809
+      - name: 'Reminder on Left Joins'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802811
+      - name: 'Writing a Slow Query'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802813
+      - name: 'Creating and Refreshing Materialized Views'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802817
+      - name: 'Views vs Materialized Views'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/quiz/5016506
+    'Handling Concurrency and Reversibility with Transactions':
+      - name: 'What are Transactions Used For?'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802825
+      - name: 'Some Sample Data'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802827
+      - name: 'Opening and Closing Transactions'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802831
+      - name: 'Transaction Cleanup on Crash'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802835
+      - name: 'Closing Aborted Transactions'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802839
+    'Managing Database Design with Schema Migrations':
+      - name: 'A Story on Migrations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802845
+      - name: 'Migration Files'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802847
+      - name: 'Issues Solved by Migrations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802849
+      - name: 'A Few Notes on Migrations Libraries'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802851
+      - name: 'A Note About Node Installation'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22805629
+      - name: 'Project Creation'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802855
+      - name: 'Generating and Writing Migrations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802857
+      - name: 'Applying and Reverting Migrations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802859
+      - name: 'Generating and Applying a Second Migration'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802863
+    'Schema vs Data Migrations':
+      - name: 'Schema vs Data Migrations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802869
+      - name: 'Dangers Around Data Migrations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802873
+      - name: 'Properly Running Data and Schema Migrations'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802875
+      - name: 'Creating a Posts Table'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802877
+      - name: 'A Small Web Server'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802879
+      - name: 'Web Server Setup Instructions'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22805639
+      - name: 'Adding the Loc Column'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802883
+      - name: 'Writing Values to Both Columns'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802887
+      - name: 'Transaction Locks'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802889
+      - name: 'Updating Values'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802891
+      - name: 'Migrations Setup Instructions'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22805657
+      - name: 'Updating the App Server'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802893
+      - name: 'Dropping the Last Columns'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802903
+    "Accessing PostgreSQL From API's":
+      - name: 'Section Goal'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802907
+      - name: 'Initial Setup'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802909
+      - name: 'One Fast Migration'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802911
+      - name: 'Building the Users Router'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802913
+      - name: 'Understanding Connection Pools'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802919
+      - name: 'Validating Connection Credentials'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802921
+      - name: 'Query and Close'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802923
+    'Data Access Pattern - Repositories':
+      - name: 'The Repository Pattern'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802925
+      - name: 'Creating a Repository'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802927
+      - name: 'Accessing the API'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802931
+      - name: 'Casing Issues'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802935
+      - name: 'Fixing Casing'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802937
+      - name: 'Finding Particular Users'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802939
+    'Security Around PostgreSQL':
+      - name: 'SQL Injection Exploits'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802943
+      - name: 'Handling SQL Injection with Prepared Statements'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802947
+      - name: 'Preventing SQL Injection'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802949
+      - name: 'Reminder on Post Requests'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802951
+      - name: 'Inserting Users'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802953
+      - name: 'Handling Updates'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802957
+      - name: 'And, Finally, Delete'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802961
+    'Fast Parallel Testing':
+      - name: 'A Note on Testing'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802969
+      - name: 'Assertions Around User Count'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802977
+      - name: 'Connecting to a DB For Tests'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802979
+      - name: 'Disconnecting After Tests'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802981
+      - name: 'Multi-DB Setup'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802983
+      - name: 'Assumptions Around Content'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802987
+      - name: 'Issues with Parallel Tests'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802989
+      - name: 'Isolation with Schemas'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802993
+      - name: 'Creating and Accessing Schemas'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802995
+      - name: 'Controlling Schema Access with Search Paths'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22802999
+      - name: 'Routing Schema Access'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22803001
+      - name: 'Strategy for Isolation'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22803005
+      - name: 'Programmatic Schema Creation'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22803007
+      - name: 'Escaping Identifiers'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22803009
+      - name: 'Test Helpers'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22803011
+      - name: 'Cleaning up Schemas and Roles'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22803015
+      - name: 'Finally... Parallel Tests!'
+        url: https://www.udemy.com/course/sql-and-postgresql/learn/lecture/22803019

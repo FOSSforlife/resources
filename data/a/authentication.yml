@@ -1,0 +1,8 @@
+sections:
+  Info:
+    - name: The definitive guide to form-based website authentication
+      url: https://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication
+    - name: Ben Awad on refresh tokens
+      url: https://youtu.be/iD49_NIQ-R4
+    - name: Nest.js + Auth0
+      url: https://auth0.com/blog/developing-a-secure-api-with-nestjs-adding-authorization/

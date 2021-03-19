@@ -1,0 +1,47 @@
+sections:
+  IGN Wiki:
+    - name: Main page
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Walkthrough_and_Main_Quests_Guide
+    - name: 1. Kokiri Forest
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Kokiri_Forest
+    - name: 2. Inside the Deku Tree
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Inside_the_Deku_Tree
+    - name: 3. Hyrule Castle
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Hyrule_Castle
+    - name: 4. Lost Woods
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Lost_Woods
+    - name: 5. Kakariko Village
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Kakariko_Village
+    - name: 6. Goron City
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Goron_City
+    - name: 7. Dodongo's Cavern
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Dodongo%27s_Cavern
+    - name: 8. Lon Lon Ranch
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Lon_Lon_Ranch
+    - name: 9. Zora's Domain
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Zora%27s_Domain
+    - name: 10. Inside Jabu-Jabu's Belly
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Inside_Jabu-Jabu%27s_Belly
+    - name: 11. Temple of Time
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Temple_of_Time
+    - name: 12. Forest Temple
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Forest_Temple
+    - name: 13. Fire Temple
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Fire_Temple
+    - name: 14. Ice Cavern
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Ice_Cavern
+    - name: 15. Water Temple
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Water_Temple
+    - name: 16. Bottom of the Well
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Bottom_of_the_Well
+    - name: 17. Shadow Temple
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Shadow_Temple
+    - name: 18. Gerudo's Fortress
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Gerudo%27s_Fortress
+    - name: 19. Spirit Temple
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Spirit_Temple
+    - name: 20. Ganon's Castle
+      url: https://www.ign.com/wikis/the-legend-of-zelda-ocarina-of-time-3d/Ganon%27s_Castle
+  Other Resources:
+    - name: ZeldaDungeon - Ocarina of Time
+      url: https://www.zeldadungeon.net/ocarina-of-time-walkthrough/

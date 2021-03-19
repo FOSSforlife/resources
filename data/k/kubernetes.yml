@@ -1,0 +1,4 @@
+sections:
+  guides:
+    - name: Kubernetes the Hard Way
+      url: https://github.com/kelseyhightower/kubernetes-the-hard-way

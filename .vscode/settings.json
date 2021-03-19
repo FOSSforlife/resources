@@ -3,5 +3,20 @@
   "html.validate.scripts": false, // needed for EJS
   "[html]": {
     "editor.formatOnSave": false
+  },
+  "macros": {
+    "copyTitleFromBelow": [
+      "cursorEnd",
+      "cursorLeft",
+      "cursorHomeSelect",
+      "editor.action.clipboardCopyAction",
+      "cursorUp",
+      "cursorEnd",
+      "cursorLeft",
+      "cursorHomeSelect",
+      "editor.action.clipboardPasteAction"
+      // "cursorDown",
+      // "cursorDown"
+    ]
   }
 }

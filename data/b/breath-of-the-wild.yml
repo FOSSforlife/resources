@@ -1,0 +1,46 @@
+sections:
+  Resources:
+    General:
+      - name: Interactive Map
+        url: http://www.zeldadungeon.net/breath-of-the-wild-interactive-map/
+      - name: ZeldaDungeon Guide
+        url: https://www.zeldadungeon.net/breath-of-the-wild-walkthrough/
+      - name: IGN Guide
+        url: http://www.ign.com/wikis/the-legend-of-zelda-breath-of-the-wild
+      - name: IGN Hyrule Compendium
+        url: http://www.ign.com/wikis/the-legend-of-zelda-breath-of-the-wild/Hyrule_Compendium
+      - name: ZeldaDungeon Hyrule Compendium
+        url: https://www.zeldadungeon.net/wiki/Hyrule_Compendium
+      - name: Captured Memories
+        url: http://www.eurogamer.net/articles/2017-07-14-zelda-breath-of-the-wild-captured-memories-locations-4857
+    ZeldaDungeon:
+      - name: Korok Seeds
+        url: https://www.zeldadungeon.net/breath-of-the-wild-walkthrough/korok-seed-locations/
+      - name: Animals
+        url: https://www.zeldadungeon.net/wiki/Gallery:Breath_of_the_Wild_Animals
+      - name: Armor
+        url: https://www.zeldadungeon.net/wiki/Gallery:Breath_of_the_Wild_Armor
+      - name: Elixirs
+        url: https://www.zeldadungeon.net/wiki/Gallery:Breath_of_the_Wild_Elixirs
+      - name: Enemies
+        url: https://www.zeldadungeon.net/wiki/Gallery:Breath_of_the_Wild_Enemies
+      - name: Enemy Drops
+        url: https://www.zeldadungeon.net/wiki/Gallery:Breath_of_the_Wild_Enemy_Drops
+      - name: Equipment
+        url: https://www.zeldadungeon.net/wiki/Gallery:Breath_of_the_Wild_Equipment
+      - name: Food
+        url: https://www.zeldadungeon.net/wiki/Gallery:Breath_of_the_Wild_Food
+      - name: Hyrule Compendium
+        url: https://www.zeldadungeon.net/wiki/Hyrule_Compendium
+      - name: Key Characters
+        url: https://www.zeldadungeon.net/wiki/Breath_of_the_Wild_Key_Characters
+      - name: Key Items
+        url: https://www.zeldadungeon.net/wiki/Gallery:Breath_of_the_Wild_Key_Items
+      - name: Locations
+        url: https://www.zeldadungeon.net/wiki/Gallery:Breath_of_the_Wild_Locations
+      - name: Materials
+        url: https://www.zeldadungeon.net/wiki/Gallery:Breath_of_the_Wild_Materials
+      - name: Meals
+        url: https://www.zeldadungeon.net/wiki/Gallery:Breath_of_the_Wild_Meals
+      - name: Memories
+        url: https://www.zeldadungeon.net/wiki/Recovered_Memory

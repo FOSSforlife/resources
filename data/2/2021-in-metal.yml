@@ -1,0 +1,13 @@
+config:
+  embeds:
+    - type: reddit
+      url: https://www.reddit.com/r/Metal/wiki/endoftheyearlists
+  tags:
+    - music discovery
+
+sections:
+  Best-of lists:
+    - name: AOTY.org
+      url: https://www.albumoftheyear.org/genre/40-metal/2021/
+    - name: RateYourMusic
+      url: https://rateyourmusic.com/charts/top/album/2021/ge:metal/

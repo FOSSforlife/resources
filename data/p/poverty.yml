@@ -6,6 +6,9 @@ config:
 
 sections:
   Opinions:
-    Debate:
-      - name: 'Dylan Matthews: Bill Gates tweeted out a chart and sparked a huge debate about global poverty'
-        url: https://www.vox.com/future-perfect/2019/2/12/18215534/bill-gates-global-poverty-chart
+    - name: 'Dylan Matthews: Bill Gates tweeted out a chart and sparked a huge debate about global poverty'
+      url: https://www.vox.com/future-perfect/2019/2/12/18215534/bill-gates-global-poverty-chart
+    - name: Money Won't Solve World Hunger
+      url: https://www.alux.com/money-wont-solve-world-hunger/
+    - name: No, Jeff Bezos Can't Solve World Hunger
+      url: https://exponentsmag.org/2020/07/18/no-jeff-bezos-cant-end-world-hunger/

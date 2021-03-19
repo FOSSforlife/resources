@@ -14,6 +14,27 @@ sections:
       url: https://www.effectivealtruism.org
     - name: Facebook Fundraisers
       url: https://www.facebook.com/fundraisers
+  Books:
+    'Peter Singer - The Life You Can Save':
+      - name: Download full book
+        url: https://www.thelifeyoucansave.org/the-book/
+      - name: SECTION I. THE ARGUMENT
+      - name: 1. Saving a Child
+      - name: 2. Is It Wrong Not to Help?
+      - name: 3. Common Objections to Giving
+      - name: SECTION II. HUMAN NATURE
+      - name: 4. Why Don’t We Give More?
+      - name: 5. Creating a Culture of Giving
+      - name: SECTION III. THE FACTS ABOUT AID
+      - name: 6. How Much Does It Cost to Save a Life, and How Can You
+      - name: Tell Which Charities Do It Best?
+      - name: 7. Improving Aid
+      - name: SECTION IV. A NEW STANDARD FOR GIVING
+      - name: 8. Your Child and the Children of Others
+      - name: 9. Asking Too Much?
+      - name: 10. A Realistic Standard
+      - name: What One Person Can Do
+      - name: 'Afterword: From Contemplation to Action. Charlie Bresler'
   Opinions:
     Thoughts on Charity From a Socialist Perspective:
       - name: 'Mutual Aid vs. Charity'
