@@ -2,7 +2,7 @@ config:
   embeds:
     - type: reddit
       url: https://www.reddit.com/r/economics/wiki
-  tags:
+  categories:
     - economics
   related:
     - capitalism

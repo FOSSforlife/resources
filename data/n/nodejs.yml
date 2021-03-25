@@ -2,8 +2,8 @@ config:
   title: Node.js
   aliases:
     - node.js
-  tags:
-    - computer science
+  categories:
+    - computer science: node.js
 
 imports:
   Books:

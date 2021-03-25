@@ -2,7 +2,27 @@ sections:
   Info:
     - name: The definitive guide to form-based website authentication
       url: https://stackoverflow.com/questions/549/the-definitive-guide-to-form-based-website-authentication
+    - name: Which OAuth 2.0 Flow Should I Use?
+      url: https://auth0.com/docs/authorization/which-oauth-2-0-flow-should-i-use
     - name: Ben Awad on refresh tokens
       url: https://youtu.be/iD49_NIQ-R4
     - name: Nest.js + Auth0
-      url: https://auth0.com/blog/developing-a-secure-api-with-nestjs-adding-authorization/
+      url: https://auth0.com/blog/developing-a-secure-api-with-nestjs-getting-started/
+    - name: React and Auth0 Crash Course and Workshop
+      url: https://youtu.be/PYWS-4CXETw
+    - name: The Ultimate Guide to handling JWTs on frontend clients (GraphQL)
+      url: https://hasura.io/blog/best-practices-of-using-jwt-with-graphql/
+  Node.js OAuth Client:
+    - name: Passport-OpenID
+      url: https://github.com/jaredhanson/passport-openid
+    - name: Grant
+      url: https://github.com/simov/grant
+    - name: Simple OAuth2
+      url: https://github.com/lelylan/simple-oauth2
+    - name: openid-client
+      url: https://github.com/panva/node-openid-client
+  Node.js OAuth Server:
+    - name: openid-provider
+      url: https://github.com/panva/node-oidc-provider
+    - name: node-oauth
+      url: https://github.com/ciaranj/node-oauth
