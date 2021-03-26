@@ -3,7 +3,7 @@ config:
     - type: reddit
       url: https://www.reddit.com/r/economics/wiki
   categories:
-    - economics
+    Economics:
   related:
     - capitalism
     - neoclassical economics

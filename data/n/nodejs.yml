@@ -3,7 +3,8 @@ config:
   aliases:
     - node.js
   categories:
-    - computer science: node.js
+    Computer Science:
+      Node.js:
 
 imports:
   Books:

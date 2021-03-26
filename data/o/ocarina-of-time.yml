@@ -1,6 +1,7 @@
 config:
   categories:
-    video games: legend of zelda
+    Video Games:
+      Legend of Zelda:
 
 sections:
   IGN Wiki:

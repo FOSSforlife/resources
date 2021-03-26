@@ -1,4 +1,6 @@
 config:
   categories:
-    music: music production
+    Music:
+      Music Production:
+      Music Theory:
   title: Piano key frequencies

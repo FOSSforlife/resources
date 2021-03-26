@@ -3,7 +3,8 @@ config:
     - type: reddit
       url: https://www.reddit.com/r/Anarchism/wiki/primer
   categories:
-    - political ideologies: anarchism
+    Political Ideologies:
+      Anarchism:
 
 sections:
   Online Texts:

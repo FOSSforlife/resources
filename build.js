@@ -31,7 +31,9 @@ const entryTemplate = ejs.compile(
 );
 for (const dataDir of fse.readdirSync(`data`)) {
   for (const entryFile of fse.readdirSync(`data/${dataDir}`, {})) {
-    const entryName = titleCase(noCase(entryFile.split('.')[0]));
+    const entryName =
+      (entryData.config && entryData.config.title) ||
+      titleCase(noCase(entryFile.split('.')[0]));
     const entryData = yaml.load(
       fse.readFileSync(`data/${dataDir}/${entryFile}`)
     );

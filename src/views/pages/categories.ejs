@@ -1,2 +1,38 @@
 <!-- TODO: Page that lists all tags and their corresponding pages -->
 <!-- Either use Collapsibles or just list them all out on one gigantic page -->
+<% const categorySortFunc = (a, b) => a[0] < b[0] ? -1 : 1 %>
+<% const sortedCategories = Object.entries(categories).sort(categorySortFunc); %>
+<% const parseCategoryName = (c) => ({name: c.split('~').pop(), depth: c.split('~').length}) %>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head', {title: 'Resources'}); %>
+</head>
+
+<body>
+  <%- include('../partials/header'); %>
+  <div class="container">
+
+
+    <div class="row">
+      <div class="col m3"></div>
+      <div class="col m6 s12">
+        <ul class="category-list">
+        <% for(const [category, entries] of sortedCategories) { %>
+          <% const { name, depth } = parseCategoryName(category) %>
+          <h<%= depth + 3 %>><%= name %></h<%= depth + 3 %>>
+          <% for(const entryName of entries) { %>
+              <li><a href="/<%= entryName %>"><%= entryName %></a></li>
+            <% } %>
+        <% } %>
+        </ul>
+        <%- include('../partials/footer'); %>
+      </div>
+      <div class="col m3"></div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 config:
   categories:
-    - economics: neoclassical economics
+    Economics:
+      Neoclassical Economics:
 
 sections:

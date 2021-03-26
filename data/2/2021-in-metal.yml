@@ -3,7 +3,8 @@ config:
     - type: reddit
       url: https://www.reddit.com/r/Metal/wiki/endoftheyearlists
   categories:
-    - music: music discovery
+    Music:
+      Music Discovery:
 
 sections:
   Best-of lists:

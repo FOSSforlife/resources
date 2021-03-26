@@ -53,9 +53,8 @@ h6 {
 }
 
 .subreddit-text {
-  .item-name,
   .item-hostname {
-    color: rgb(226, 155, 1);
+    color: rgb(236, 162, 1);
   }
 }
 
@@ -84,7 +83,12 @@ h6 {
   }
 }
 
-// materialize:
-// preloader
-// collapsible
-// tabs (change look)
+ul.category-list {
+  h4 {
+    margin-top: inherit;
+    margin-bottom: inherit;
+  }
+  li {
+    list-style-type: initial;
+  }
+}

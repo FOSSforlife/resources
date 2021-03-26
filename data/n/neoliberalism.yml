@@ -3,8 +3,9 @@ config:
     - type: reddit
       url: https://www.reddit.com/r/neoliberal/wiki/faq
   categories:
-    - political ideologies
-    - economics: neoclassical economics
+    Political Ideologies:
+    Economics:
+      Neoclassical Economics:
 
 sections:
   Opinions:

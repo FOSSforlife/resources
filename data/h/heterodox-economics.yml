@@ -1,6 +1,7 @@
 config:
   categories:
-    - economics: heterodox economics
+    Economics:
+      Heterodox Economics:
   related:
     - neoclassical economics
 
