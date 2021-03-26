@@ -25,18 +25,15 @@ fse.writeFileSync('dist/css/style.css', sassResult.css.toString());
 fse.writeFileSync('dist/css/style.css.map', sassResult.map.toString());
 
 // Build HTML
-const entryTemplate = ejs.compile(
-  fse.readFileSync('src/views/pages/entry.ejs').toString(),
-  { filename: 'src/views/pages/entry.ejs' }
-);
+const categories = require('build-categories');
+const entryTemplate = ejs.compile(fse.readFileSync('src/views/pages/entry.ejs').toString(), {
+  filename: 'src/views/pages/entry.ejs',
+});
 for (const dataDir of fse.readdirSync(`data`)) {
   for (const entryFile of fse.readdirSync(`data/${dataDir}`, {})) {
     const entryName =
-      (entryData.config && entryData.config.title) ||
-      titleCase(noCase(entryFile.split('.')[0]));
-    const entryData = yaml.load(
-      fse.readFileSync(`data/${dataDir}/${entryFile}`)
-    );
+      (entryData.config && entryData.config.title) || titleCase(noCase(entryFile.split('.')[0]));
+    const entryData = yaml.load(fse.readFileSync(`data/${dataDir}/${entryFile}`));
 
     const html = entryTemplate({
       entryData,

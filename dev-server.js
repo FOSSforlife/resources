@@ -1,7 +1,5 @@
 const fse = require('fs-extra');
 const path = require('path');
-const flatten = require('flat');
-const { get, set } = require('lodash');
 const { paramCase, noCase } = require('change-case');
 const { titleCase } = require('title-case');
 const yaml = require('js-yaml');
@@ -25,43 +23,14 @@ app.get('/js/*.js', (req, res) => {
 });
 
 app.get('/categories', (req, res) => {
-  const categories = {};
-  for (const dataDir of fse.readdirSync(`data`)) {
-    for (const entryFile of fse.readdirSync(`data/${dataDir}`, {})) {
-      const entryData = yaml.load(fse.readFileSync(`data/${dataDir}/${entryFile}`));
-      const entryName =
-        (entryData.config && entryData.config.title) || titleCase(noCase(entryFile.split('.')[0]));
-
-      if (entryData.config && entryData.config.categories) {
-        const categoriesToAdd = flatten(entryData.config.categories, { delimiter: '~' });
-        for (const category of Object.keys(categoriesToAdd)) {
-          // make sure all upper categories exist
-          for (const [index, subcategory] of category.split('~').entries()) {
-            const subcategoryFullName = category
-              .split('~')
-              .slice(0, index + 1)
-              .join('~');
-            const subcategoryPages = categories[subcategoryFullName] || [];
-            categories[subcategoryFullName] = subcategoryPages;
-          }
-
-          const categoryPages = categories[category] || [];
-          categoryPages.push(entryName);
-          categories[category] = categoryPages;
-
-          // const categoryPath = category.split('~');
-          // const categoryPages = get(categories, categoryPath, []);
-          // categoryPages.push(entryName);
-          // instead of set, we need array push
-          // 'three': ['a', 'b', 'c', {deep: ['d', 'e', 'f']}, ],
-          // set(categories, categoryPath, categoryPages);
-        }
-      }
-    }
+  if (!fse.existsSync('./public/categories.json')) {
+    require('./build-categories');
   }
+  const categories = require('./public/categories.json');
   res.render('pages/categories', { categories });
 });
 
+app.get('/category/:categoryPath', (req, res) => {});
 app.get('/:entryPath', (req, res) => {
   const { entryPath } = req.params;
 
