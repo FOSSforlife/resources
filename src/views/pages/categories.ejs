@@ -2,7 +2,7 @@
 <!-- Either use Collapsibles or just list them all out on one gigantic page -->
 <% const categorySortFunc = (a, b) => a[0] < b[0] ? -1 : 1 %>
 <% const sortedCategories = Object.entries(categories).sort(categorySortFunc); %>
-<% const parseCategoryName = (c) => ({name: c.split('~').pop(), depth: c.split('~').length}) %>
+<% const parseCategoryName = (c) => ({name: c.split('~').pop(), depth: c.split('~').length - sortedCategories[0][0].split('~').length}) %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,8 +20,8 @@
         <ul class="category-list">
         <% for(const [category, entries] of sortedCategories) { %>
           <% const { name, depth } = parseCategoryName(category) %>
-          <h<%= Math.min(depth + 3, 6) %>><%= name %></h<%= Math.min(depth + 3, 6) %>>
-            <% if(depth === 1) { %>
+          <h<%= Math.min(depth + 4, 6) %>><%= name %></h<%= Math.min(depth + 4, 6) %>>
+            <% if(depth === 0) { %>
               <div class="divider"></div>
             <% } %>
             <% for(const entryName of entries) { %>

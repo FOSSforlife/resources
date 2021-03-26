@@ -1,5 +1,6 @@
 const fse = require('fs-extra');
 const path = require('path');
+const { pick } = require('lodash');
 const { paramCase, noCase } = require('change-case');
 const { titleCase } = require('title-case');
 const yaml = require('js-yaml');
@@ -23,14 +24,40 @@ app.get('/js/*.js', (req, res) => {
 });
 
 app.get('/categories', (req, res) => {
+  let categories;
   if (!fse.existsSync('./public/categories.json')) {
-    require('./build-categories');
+    categories = require('./build-categories');
+  } else {
+    categories = require('./public/categories.json');
   }
-  const categories = require('./public/categories.json');
   res.render('pages/categories', { categories });
 });
 
-app.get('/category/:categoryPath', (req, res) => {});
+app.get('/categories/:categoryPath', (req, res) => {
+  const { categoryPath } = req.params;
+  const categoryName = titleCase(categoryPath);
+  let categories;
+  if (!fse.existsSync('./public/categories.json')) {
+    categories = require('./build-categories');
+  } else {
+    categories = require('./public/categories.json');
+  }
+
+  console.log(categories);
+  const categoryFullName = Object.keys(categories).find((fullName) => {
+    return fullName.split('~').pop() === categoryPath;
+  });
+  if (!categoryFullName) {
+    // TODO: return error or whatever
+  }
+  const filteredCategories = pick(
+    categories,
+    Object.keys(categories).filter((c) => c.startsWith(categoryFullName))
+  );
+
+  res.render('pages/categories', { categories: filteredCategories });
+});
+
 app.get('/:entryPath', (req, res) => {
   const { entryPath } = req.params;
 
