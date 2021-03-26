@@ -14,19 +14,20 @@
 <body>
   <%- include('../partials/header'); %>
   <div class="container">
-
-
     <div class="row">
       <div class="col m3"></div>
       <div class="col m6 s12">
         <ul class="category-list">
         <% for(const [category, entries] of sortedCategories) { %>
           <% const { name, depth } = parseCategoryName(category) %>
-          <h<%= depth + 3 %>><%= name %></h<%= depth + 3 %>>
-          <% for(const entryName of entries) { %>
+          <h<%= Math.min(depth + 3, 6) %>><%= name %></h<%= Math.min(depth + 3, 6) %>>
+            <% if(depth === 1) { %>
+              <div class="divider"></div>
+            <% } %>
+            <% for(const entryName of entries) { %>
               <li><a href="/<%= entryName %>"><%= entryName %></a></li>
             <% } %>
-        <% } %>
+          <% } %>
         </ul>
         <%- include('../partials/footer'); %>
       </div>
