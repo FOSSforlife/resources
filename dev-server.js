@@ -1,5 +1,6 @@
 const fse = require('fs-extra');
 const path = require('path');
+const flatten = require('flat');
 const { pick } = require('lodash');
 const { paramCase, noCase } = require('change-case');
 const { titleCase } = require('title-case');
@@ -43,7 +44,6 @@ app.get('/categories/:categoryPath', (req, res) => {
     categories = require('./public/categories.json');
   }
 
-  console.log(categories);
   const categoryFullName = Object.keys(categories).find((fullName) => {
     return fullName.split('~').pop() === categoryPath;
   });
@@ -69,7 +69,11 @@ app.get('/:entryPath', (req, res) => {
     (entryData.config && entryData.config.title) ||
     titleCase(noCase(entryFileShortened.split('.')[0]));
 
-  res.render('pages/entry', { entryData, entryName, md });
+  const flattenedCategories = entryData.config.categories
+    ? Object.keys(flatten(entryData.config.categories, { delimiter: '~' }))
+    : [];
+  console.log(flattenedCategories);
+  res.render('pages/entry', { entryData, entryName, md, categories: flattenedCategories || [] });
 });
 
 app.listen(8080);

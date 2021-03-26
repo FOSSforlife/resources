@@ -24,6 +24,22 @@ h6 {
   margin-bottom: 0;
 }
 
+.col.s12 {
+  padding-left: 0;
+}
+
+.breadcrumb {
+  color: black;
+  height: 30px;
+  margin-left: 0;
+
+  &:before,
+  &:last-child {
+    color: black;
+    vertical-align: middle;
+  }
+}
+
 // https://github.com/Dogfalo/materialize/blob/v1-dev/sass/components/_tabs.scss
 .tabs {
   .tab a {

@@ -8,9 +8,18 @@
 
 <body>
   <%- include('../partials/header'); %>
+  <% if(entryData) { %>
   <div class="row">
     <div class="col m3"></div>
     <div class="col m6 s12">
+      <% if(categories[0]) { %>
+        <div class="col s12">
+          <a href="/categories" class="breadcrumb">Categories</a>
+        <% for(const breadcrumb of categories[0].split('~')) { %>
+            <a href="/categories/<%= breadcrumb %>" class="breadcrumb"><%= breadcrumb %></a>
+          <% } %>
+        </div>
+      <% } %>
       <div class="section">
         <h4><br><%= entryName %></h4>
       </div>
@@ -18,23 +27,23 @@
 
       <script src="js/embed.js"></script>
       <ul class="tabs">
-        <% if(entryData && entryData.sections) { %>
+        <% if(entryData.sections) { %>
           <li class="tab"><a class="active" href="#links">Links</a></li>
         <% } %>
         <li class="tab"><a href="#wikipedia">Wikipedia</a></li>
-        <% if(entryData && entryData.config && entryData.config.embeds) { %>
+        <% if(entryData.config && entryData.config.embeds) { %>
           <% for(const [embedIndex, embedData] of Object.entries(entryData.config.embeds)) { %>
             <li class="tab"><a href="#embed<%= embedIndex %>"><%= embedData.name || fullNames[embedData.type] %></a></li>
           <% } %>
         <% } %>
       </ul>
       <div id="links">
-        <% if(entryData && entryData.sections) { %>
+        <% if(entryData.sections) { %>
           <%- include('../partials/links', { sections: entryData.sections, sectionDescriptions: entryData.sectionDescriptions, md }); %>
         <% } %>
       </div>
       <%- include('../partials/embed', { elementId: 'wikipedia', embedData: {type: 'wikipedia', entryName} }); %>
-      <% if(entryData && entryData.config && entryData.config.embeds) { %>
+      <% if(entryData.config && entryData.config.embeds) { %>
         <% for(const [embedIndex, embedData] of Object.entries(entryData.config.embeds)) { %>
           <%- include('../partials/embed', { elementId: `embed${embedIndex}`, embedData }); %>
         <% } %>
@@ -43,6 +52,7 @@
     </div>
     <div class="col m3"></div>
   </div>
+  <% } %>
   <script src="js/entry.js"></script>
 
 </body>
