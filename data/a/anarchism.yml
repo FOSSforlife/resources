@@ -7,6 +7,9 @@ config:
       Anarchism:
 
 sections:
+  Resources:
+    - name: Marxism-Anarchism Archive
+      url: https://www.marxists.org/subject/anarchism/index.htm
   Online Texts:
     An Anarchist FAQ:
       - name: 'Introduction'

@@ -1,0 +1,10 @@
+config:
+  categories:
+    Economics:
+      Economic Policy:
+  embeds:
+    - type: reddit
+      url: https://www.reddit.com/r/Economics/wiki/faq_basicincome
+    - type: reddit
+      url: https://www.reddit.com/r/BasicIncome/wiki/index
+  title: Universal Basic Income

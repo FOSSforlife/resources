@@ -17,8 +17,9 @@ async function fetchWikiEmbed(elementId, embedData) {
 
   const start = text.indexOf('<body');
   const end = text.indexOf('</body>');
-  const body = text.substring(start, end);
-  // const body = text.substring(1133, 206896);
+  const body =
+    `<a href="https://en.wikipedia.org/wiki/${pageName}">View on Wikipedia</a><br>` +
+    text.substring(start, end);
   const el = document.getElementById(elementId);
   el.classList.add('wikipedia');
   el.innerHTML = body;
@@ -38,7 +39,7 @@ async function fetchRedditEmbed(elementId, embedData) {
   const html = response.data.content_html;
   const el = document.getElementById(elementId);
   el.classList.add('reddit');
-  el.innerHTML = decodeHtml(html);
+  el.innerHTML = `<a href="${url}">View on Reddit</a><br>` + decodeHtml(html);
 
   const links = document.querySelectorAll(`#${elementId} a`);
   for (const anchorTag of Array.from(links)) {
@@ -46,10 +47,7 @@ async function fetchRedditEmbed(elementId, embedData) {
       anchorTag.getAttribute('href').startsWith('/r/') ||
       anchorTag.getAttribute('href').startsWith('/u/')
     ) {
-      anchorTag.setAttribute(
-        'href',
-        'https://reddit.com' + anchorTag.getAttribute('href')
-      );
+      anchorTag.setAttribute('href', 'https://reddit.com' + anchorTag.getAttribute('href'));
     }
   }
 }

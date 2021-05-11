@@ -1,4 +1,11 @@
-<% const fullNames = {reddit: 'Reddit Wiki', sep: 'SEP'} %>
+<% const getFullName = (embed) => {
+  switch(embed.type) {
+    case 'reddit':
+      return `/r/${embed.url.split('/')[4]}`;
+    case 'sep':
+      return 'SEP';
+  }
+} %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,7 +40,7 @@
         <li class="tab"><a href="#wikipedia">Wikipedia</a></li>
         <% if(entryData.config && entryData.config.embeds) { %>
           <% for(const [embedIndex, embedData] of Object.entries(entryData.config.embeds)) { %>
-            <li class="tab"><a href="#embed<%= embedIndex %>"><%= embedData.name || fullNames[embedData.type] %></a></li>
+            <li class="tab"><a href="#embed<%= embedIndex %>"><%= embedData.name || getFullName(embedData) %></a></li>
           <% } %>
         <% } %>
       </ul>
