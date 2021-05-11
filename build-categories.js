@@ -9,6 +9,9 @@ function buildCategories(outFile) {
   for (const dataDir of fs.readdirSync(`data`)) {
     for (const entryFile of fs.readdirSync(`data/${dataDir}`, {})) {
       const entryData = yaml.load(fs.readFileSync(`data/${dataDir}/${entryFile}`));
+      if (!entryData) {
+        continue;
+      }
       const entryName =
         (entryData.config && entryData.config.title) || titleCase(noCase(entryFile.split('.')[0]));
 

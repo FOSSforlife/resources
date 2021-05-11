@@ -2,6 +2,8 @@ config:
   embeds:
     - type: reddit
       url: https://www.reddit.com/r/neoliberal/wiki/faq
+    - type: reddit
+      url: https://www.reddit.com/r/neoliberal/wiki/why
   categories:
     Political Ideologies:
     Economics:

@@ -1,6 +1,9 @@
 config:
   categories:
     Ethics:
+  embeds:
+    - type: sep
+      url: https://plato.stanford.edu/entries/consequentialism/
 
 sectionDescriptions:
   Utilitarianism.com: Links imported from the home page of [Utilitarianism.com](https://www.utilitarianism.com).

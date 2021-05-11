@@ -7,4 +7,30 @@ config:
       url: https://www.reddit.com/r/Economics/wiki/faq_basicincome
     - type: reddit
       url: https://www.reddit.com/r/BasicIncome/wiki/index
-  title: Universal Basic Income
+    - type: wikipedia
+      url: https://en.wikipedia.org/wiki/Negative_income_tax
+  title: Universal Basic Income # TODO: redirects should pick up alternate titles as well
+  redirects:
+    - negative income tax
+
+sections:
+  General Links:
+    - name: BasicIncome.com
+      url: http://basicincome.com
+    - name: UBI (Investopedia)
+      url: https://www.investopedia.com/terms/b/basic-income.asp
+  Case Studies:
+    - name: Basic income pilots
+      url: https://en.wikipedia.org/wiki/Basic_income_pilots
+    - name: Everywhere basic income has been tried, in one map
+      url: https://www.vox.com/future-perfect/2020/2/19/21112570/universal-basic-income-ubi-map
+  UBI Is Too Expensive (But A Negative Income Tax isn't):
+    - name: 'Dylan Matthews: What happens if you replace every social program with a universal basic income (May 2017)'
+      url: https://www.vox.com/policy-and-politics/2017/5/30/15712160/basic-income-oecd-aei-replace-welfare-state
+  Other Interesting Articles:
+    - name: 'The math is clear: Universal basic income is a terrible idea'
+      url: https://www.businessinsider.com/yang-warren-universal-basic-income-idea-bad-2019-11
+    - name: Why universal basic income costs far less than you think
+      url: https://theconversation.com/why-universal-basic-income-costs-far-less-than-you-think-101134
+    - name: A universal basic income could absolutely solve poverty
+      url: https://www.vox.com/2016/5/31/11819024/universal-basic-income-works

@@ -1,0 +1,14 @@
+config:
+  categories:
+    Ethics:
+  embeds:
+    - type: sep
+      url: https://plato.stanford.edu/entries/well-being/
+    - type: wikipedia
+      url: https://en.wikipedia.org/wiki/Quality_of_life
+    - type: wikipedia
+      url: https://en.wikipedia.org/wiki/Human_Development_Index
+    - type: wikipedia
+      url: https://en.wikipedia.org/wiki/World_Happiness_Report
+  related:
+    - utilitarianism

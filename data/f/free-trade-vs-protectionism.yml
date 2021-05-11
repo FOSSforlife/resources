@@ -1,0 +1,25 @@
+config:
+  categories:
+    Economics:
+  redirects:
+    - free trade
+    - protectionism
+    - free trade vs. protectionism
+    - protectionism vs free trade
+    - protectionism vs. free trade
+
+sections:
+  Debate:
+    Summaries:
+      - name: Preliminary arguments for and against free trade
+        url: https://www.debatingeurope.eu/focus/arguments-for-and-against-free-trade/#.YHYQ3aySmUk
+      - name: Calculating The Costs Of Protectionism
+        url: https://www.forbes.com/sites/realspin/2017/02/16/calculating-the-costs-of-protectionism/?sh=6308bc0c5596
+      - name: What’s the impact of globalization on wages, jobs and the cost of living?
+        url: https://ourworldindata.org/trade-wages-cost-living
+    Arguments for Protectionism:
+      - name: Free trade decreases wages and increases job losses
+        url: https://www.epi.org/publication/ib244/
+    Arguments for Free Trade:
+      - name: Yes, protectionism can save some US jobs, but at what cost?
+        url: https://www.aei.org/carpe-diem/yes-protectionism-can-save-some-us-jobs-but-at-what-cost-empirical-evidence-suggests-its-very-very-expensive/

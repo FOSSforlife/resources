@@ -1,0 +1,39 @@
+config:
+  embeds:
+    - type: reddit
+      url: https://www.reddit.com/r/Economics/wiki/faq_minwage
+  categories:
+    Economics:
+
+sections:
+  Evidence About Economic Impact:
+    - name: Should Biden raise the minimum wage to $15? The economic debate, explained.
+      url: https://www.vox.com/future-perfect/2019/11/20/20952151/should-minimum-wage-be-raised
+    - name: 'The Impact of Increasing the Minimum Wage on Unemployment: No Evidence of Harm'
+      url: https://aneconomicsense.org/2013/03/06/the-impact-of-increasing-the-minimum-wage-on-unemployment-no-evidence-of-it/
+    - name: What the US gets wrong about minimum wage
+      url: https://youtu.be/_M3vTvm2cfM
+    - name: How the Minimum Wage Impacts Unemployment
+      url: https://www.investopedia.com/articles/personal-finance/013015/how-minimum-wage-impacts-unemployment.asp
+    - name: 'Labor Markets and Minimum Wage (Crash Course Economics #28)'
+      url: https://youtu.be/mWwXmH-n5Bo
+    - name: The problems with the textbook analysis of minimum wages
+      url: https://www.policynote.ca/the-problems-with-the-textbook-analysis-of-minimum-wages/
+    - name: 'Understanding Wage Theft: Evasion and Avoidance Responses to Minimum Wage Increases '
+      url: https://www.iza.org/publications/dp/12167/understanding-wage-theft-evasion-and-avoidance-responses-to-minimum-wage-increases
+    - name: Dropouts Need Not Apply? The Minimum Wage and Skill Upgrading
+      url: https://www.journals.uchicago.edu/doi/10.1086/711490
+    - name: Minimum Wages and Racial Inequality
+      url: https://academic.oup.com/qje/article-abstract/136/1/169/5905427?redirectedFrom=fulltext
+    - name: The Counterintuitive Workings of the Minimum Wage
+      url: https://www.theatlantic.com/ideas/archive/2021/01/counterintuitive-workings-minimum-wage/617861/
+    - name: Effect of Minimum Wages on Low-Wage Jobs
+      url: https://academic.oup.com/qje/article/134/3/1405/5484905?login=true
+
+  Why Are Wages Stagnating?:
+    - name: Causes of Wage Stagnation
+      url: https://www.epi.org/publication/causes-of-wage-stagnation/
+    - name: What's Causing Wage Stagnation in America?
+      url: https://insight.kellogg.northwestern.edu/article/wage-stagnation-in-america
+    - name: Why Aren't Wages Keeping Up? It's Not The Economy, It's Management
+      url: https://www.forbes.com/sites/joshbersin/2018/10/31/why-arent-wages-keeping-up-its-not-the-economy-its-management/?sh=374644b2397e

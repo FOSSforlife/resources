@@ -1,0 +1,34 @@
+config:
+  categories:
+    Music:
+      Audio Programming:
+    Computer Science:
+  embeds:
+    - type: wikipedia
+      url: https://en.wikipedia.org/wiki/Comparison_of_audio_synthesis_environments
+    - type: github
+      url: https://github.com/BillyDM/Awesome-Audio-DSP
+
+sections:
+  Audio Synthesis Languages:
+    - name: ChucK
+      url: https://chuck.cs.princeton.edu
+    - name: Csound
+      url: https://csound.com
+    - name: FAUST
+      url: https://faust.grame.fr
+    - name: Max/MSP
+      url: https://cycling74.com/products/max/
+    - name: Pure Data
+      url: http://puredata.info
+    - name: SuperCollider
+      url: https://supercollider.github.io
+    - name: VCV Rack
+      url: https://vcvrack.com
+  Rhythm Generation/Live Coding Languages:
+    - name: Nestup
+      url: https://nestup.cutelab.nyc
+    - name: Sonic Pi
+      url: https://sonic-pi.net
+    - name: TidalCycles
+      url: https://tidalcycles.org
