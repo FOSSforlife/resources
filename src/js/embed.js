@@ -51,3 +51,18 @@ async function fetchRedditEmbed(elementId, embedData) {
     }
   }
 }
+
+async function fetchSEPEmbed(elementId, embedData) {
+  const { url } = embedData;
+  const text = await (await fetch(url, { mode: 'no-cors' })).text();
+  console.log('text = ', text);
+  const start = text.indexOf('<!-- BEGIN ARTICLE HTML -->');
+  const end = text.indexOf('<!-- END ARTICLE HTML -->');
+
+  const body =
+    `<a href="${url}">View on Stanford Encyclopedia of Philosophy</a><br>` +
+    text.substring(start, end);
+  const el = document.getElementById(elementId);
+  el.classList.add('sep');
+  el.innerHTML = body;
+}
