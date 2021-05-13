@@ -2,6 +2,9 @@ config:
   categories:
     Video Games:
       Legend of Zelda:
+  redirects:
+    - breath of the wild
+  title: 'The Legend of Zelda: Breath of the Wild'
 
 sections:
   Resources:

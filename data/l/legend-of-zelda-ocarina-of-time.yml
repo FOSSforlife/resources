@@ -2,6 +2,9 @@ config:
   categories:
     Video Games:
       Legend of Zelda:
+  redirects:
+    - ocarina of time
+  title: 'The Legend of Zelda: Ocarina of Time'
 
 sections:
   IGN Wiki:

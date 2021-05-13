@@ -1,0 +1,72 @@
+config:
+  categories:
+    Video Games:
+      Legend of Zelda:
+  redirects:
+    - wind waker
+  title: 'The Legend of Zelda: The Wind Waker'
+
+sections:
+  IGN Guide:
+    - name: Main Page
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker
+    - name: Outset Island
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Outset_Island
+    - name: Pirate Ship
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Pirate_Ship
+    - name: Forsaken Fortress
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Forsaken_Fortress
+    - name: Windfall Island
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Windfall_Island
+    - name: Dragoon Roost Island
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Dragoon_Roost_Island
+    - name: Dragoon Roost Cavern
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Dragoon_Roost_Cavern
+    - name: Forest Haven
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Forest_Haven
+    - name: Forbidden Woods
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Forbidden_Woods
+    - name: Pearls of the Gods
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Pearls_of_the_Gods
+    - name: Greatfish Isle
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Greatfish_Isle
+    - name: 'Windfall Island: Pirate Ship'
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Windfall_Island:_Pirate_Ship
+    - name: 'Outset Island: Jabun'
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Outset_Island:_Jabun
+    - name: Triangle Islands
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Triangle_Islands
+    - name: Tower of the Gods
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Tower_of_the_Gods
+    - name: Mysterious Castle
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Mysterious_Castle
+    - name: Return to Forsaken Fortress
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Return_to_Forsaken_Fortress
+    - name: Mother & Child Isles
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Mother_%26_Child_Isles
+    - name: Fire Mountain
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Fire_Mountain
+    - name: Ice Ring Isle
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Ice_Ring_Isle
+    - name: Headstone Island
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Headstone_Island
+    - name: Gale Isle
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Gale_Isle
+    - name: Triforce Shard 1
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Triforce_Shard_1
+    - name: Triforce Shard 2
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Triforce_Shard_2
+    - name: Triforce Shard 3
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Triforce_Shard_3
+    - name: Triforce Shard 4
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Triforce_Shard_4
+    - name: Triforce Shard 5
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Triforce_Shard_5
+    - name: Triforce Shard 6
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Triforce_Shard_6
+    - name: Triforce Shard 7
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Triforce_Shard_7
+    - name: Triforce Shard 8
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Triforce_Shard_8
+    - name: Ganon's Castle
+      url: https://www.ign.com/wikis/the-legend-of-zelda-wind-waker/Ganon%27s_Castle
