@@ -1,0 +1,12 @@
+config:
+  categories:
+    Computer Science:
+      Frontend:
+  redirects:
+    - react
+  title: React
+
+sections:
+  Main Resources:
+    - name: React Documentation
+      url: https://reactjs.org/docs/getting-started.html

@@ -1,7 +1,10 @@
+config:
+  embeds:
+    - type: reddit
+      url: https://www.reddit.com/r/vegan/wiki/beginnersguide
+
 sections:
   Resources:
-    - name: /r/vegan FAQ
-      url: https://www.reddit.com/r/vegan/wiki/beginnersguide)
     - name: Huge list of ingredients to avoid
       url: http://www.veganwolf.com/animal_ingredients.htm
     - name: Huge list of Portland vegan restaurants

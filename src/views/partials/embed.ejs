@@ -4,5 +4,8 @@
     fetchWikiEmbed('<%= elementId %>', <%- JSON.stringify(embedData) %> );
   <% } else if(embedData.type === 'reddit') { %>
     fetchRedditEmbed('<%= elementId %>', <%- JSON.stringify(embedData) %> );
+  <% } else if(embedData.type === 'github') { %>
+    fetchGithubEmbed('<%= elementId %>', <%- JSON.stringify(embedData) %>, <% md %> );
   <% } %>
+  console.log(<% md %>)
 </script>

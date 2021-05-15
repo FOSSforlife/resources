@@ -2,10 +2,25 @@
   switch(embed.type) {
     case 'reddit':
       return `/r/${embed.url.split('/')[4]}`;
+    case 'wikipedia':
+      return embed.entryName;
     case 'sep':
       return 'SEP';
   }
 } %>
+
+<%
+  const getEmbedIcon = (embedType) => {
+    switch(embedType) {
+      case 'reddit':
+        return '<i class="fab fa-reddit-alien"></i>';
+      case 'wikipedia':
+        return '<i class="fab fa-wikipedia-w"></i>';
+      case 'github':
+        return '<i class="fab fa-github"></i>';
+    }
+  }
+%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,12 +50,12 @@
       <script src="js/embed.js"></script>
       <ul class="tabs">
         <% if(entryData.sections) { %>
-          <li class="tab"><a class="active" href="#links">Links</a></li>
+          <li class="tab"><a class="active" href="#links"><i class="fas fa-link"></i></a></li>
         <% } %>
-        <li class="tab"><a href="#wikipedia">Wikipedia</a></li>
+        <li class="tab"><a href="#wikipedia"><i class="fab fa-wikipedia-w"></i></a></li>
         <% if(entryData.config && entryData.config.embeds) { %>
           <% for(const [embedIndex, embedData] of Object.entries(entryData.config.embeds)) { %>
-            <li class="tab"><a href="#embed<%= embedIndex %>"><%= embedData.name || getFullName(embedData) %></a></li>
+            <li class="tab"><a href="#embed<%= embedIndex %>"><%- getEmbedIcon(embedData.type) %></a></li>
           <% } %>
         <% } %>
       </ul>
@@ -52,7 +67,7 @@
       <%- include('../partials/embed', { elementId: 'wikipedia', embedData: {type: 'wikipedia', entryName} }); %>
       <% if(entryData.config && entryData.config.embeds) { %>
         <% for(const [embedIndex, embedData] of Object.entries(entryData.config.embeds)) { %>
-          <%- include('../partials/embed', { elementId: `embed${embedIndex}`, embedData }); %>
+          <%- include('../partials/embed', { elementId: `embed${embedIndex}`, embedData, md }); %>
         <% } %>
         <% } %>
       <%- include('../partials/footer', { entryName }); %>

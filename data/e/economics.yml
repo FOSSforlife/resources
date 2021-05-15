@@ -1,7 +1,7 @@
 config:
   embeds:
     - type: reddit
-      url: https://www.reddit.com/r/economics/wiki
+      url: https://www.reddit.com/r/economics/wiki/index
   categories:
     Economics:
   related:
