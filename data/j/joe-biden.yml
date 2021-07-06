@@ -1,0 +1,17 @@
+config:
+  categories:
+    U.S. Government:
+  aliases:
+    - Biden
+
+sections:
+  What Has Biden Done?:
+    - name: Biden Promise Tracker
+      url: https://www.politifact.com/truth-o-meter/promises/biden-promise-tracker/
+    - name: Evaluating President Joe Biden’s first 100 days in office
+      url: https://www.politifact.com/article/2021/apr/26/evaluating-president-joe-bidens-first-100-days-off/
+    - name: At the 100-day mark, has Biden kept his campaign promises?
+      url: https://www.washingtonpost.com/politics/interactive/2021/biden-promises-100-days/
+  Biden Could Do Better:
+    - name: Biden Is Not Doing Nearly Enough
+      url: https://www.currentaffairs.org/2021/06/biden-is-not-doing-nearly-enough?fbclid=IwAR0o_bcTEWDj1bzMNEOlsm1nuvKG9INtEaHdbAdBT0Dg9TXYuKMuvtOwHXc

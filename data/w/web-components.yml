@@ -1,0 +1,9 @@
+config:
+  categories:
+    Computer Science:
+      Web Development:
+
+sections:
+  Links:
+    - name: How we use Web Components at GitHub
+      url: https://github.blog/2021-05-04-how-we-use-web-components-at-github/
