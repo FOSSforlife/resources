@@ -6,6 +6,8 @@
     fetchRedditEmbed('<%= elementId %>', <%- JSON.stringify(embedData) %> );
   <% } else if(embedData.type === 'github') { %>
     fetchGithubEmbed('<%= elementId %>', <%- JSON.stringify(embedData) %>, <% md %> );
+  <% } else if(embedData.type === 'sep') { %>
+    fetchSepEmbed('<%= elementId %>', <%- JSON.stringify(embedData) %> );
   <% } %>
   console.log(<% md %>)
 </script>

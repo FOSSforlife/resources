@@ -78,3 +78,18 @@ async function fetchGithubEmbed(elementId, embedData, md) {
   const el = document.getElementById(elementId);
   el.innerHTML = `<a href="${url}">View on GitHub</a><br>` + decodeHtml(html);
 }
+
+async function fetchWikiProxyEmbed(elementId, embedData, siteName) {
+  const { url } = embedData;
+  const html = await (await fetch(url)).text();
+  const el = document.getElementById(elementId);
+  el.innerHTML = `<a href="${url}">View on ${siteName}</a><br>` + decodeHtml(html);
+}
+
+async function fetchSepEmbed(elementId, embedData) {
+  embedData.url = embedData.url.replace(
+    'https://plato.stanford.edu',
+    'https://wiki-proxy.s3.us-west-2.amazonaws.com/sep'
+  );
+  return fetchWikiProxyEmbed(elementId, embedData, 'SEP');
+}
